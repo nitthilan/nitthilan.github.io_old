@@ -63,3 +63,106 @@ Turbo vnc
 - python train.py --num-workers 2 --env-id gym-core.PongDeterministic-v3 --log-dir /tmp/vncpong
 - open vnc://localhost:5900 password:openai
 
+
+
+Jana Slides:
+- Nonstationary policies are used when we are given a
+finite planning horizon H
+5 I.e. we are told how many actions we will be allowed to take
+h Nonstationary policies are functions from states and
+times to actions
+5 π:S x T → A, where T is the non-negative integers
+5 π(s,t) tells us what action to take at state s when there are t
+stages-to-go (note that we are using the convention that t
+represents stages/decisions to go, rather than the time step)
+
+- Probability of going to state s’ after taking action a in state s
+g How many parameters does it take to represent?
+m*n*(n-1) - O(m*n^2)
+
+
+David Silver Lectures
+- try to optimise the future rewards. deoes past reward have any impact??
+- can time based discounting used to assign rewards for states and actionds to achieve necessary goals?
+- how is stwate represented using history of obser ationa? MDP, Pomdp
+
+Things to understand
+- Actor Critic algorithm
+- REINFORCE algorithm (Williams, 1992) 
+   - <http://www-anw.cs.umass.edu/~barto/courses/cs687/williams92simple.pdf>
+- Gradient following solution for Belman equation
+   - 
+- Monte-Carlo Planning
+- Classification of different type of solutions for MDP
+   - Dynamic Programming
+   - Monte Carlo method
+   - SARSA
+- Belman Expectation  Equation for 
+   - Marcov Decision Process
+   - Markov 
+
+- Belman Optimality Equation
+   - Markov Decision Process
+
+
+- Policy Evaluation (only updating value function and not updating policy i.e. using always only one policy. However this leads to an optimal policy)
+   - Policy Evaluation uses a policy and so uses Bellman equation for updation using the policy i.e. uses Expectation and not Max
+- Policy Iteration (Evaluate a given policy to get a new value [Policy Evaluation]. Then use this value to evaluate a greedy policy usch that new policy is better than the older policy [Policy Improvement])
+   - MDP has only one optimal policy
+- Value Iteration (Update Values using Bellman Optimality equation i.e. it uses MAX)
+   - There is no policy calculation and keeps updating only values
+
+- Synchronous is updating all the states in one shot after updating all states in the before state
+- Asynchronous is keep using the new values as and when a new value is calculated 
+
+- Planning - when full model is known trying to get the optimal policy
+
+- Prediction - Evaluating a value for a given policy for the given MDP
+- Control - Finding the optimal value for a given MDP
+
+- On-Policy vs Off-Policy Learning
+
+- COntraction Mapping theorem???
+- forward TD(lambda), backward TD(lambda) ???
+
+- GLIE Monte-Carlo Control
+
+- Problem with bias and variance
+   - TD has low variance since it uses only one random variable i.e. the immediate result
+   - MC has lot of variance since the estimate is sum of lot of 
+   - MC has zero bias since the estimate is always right (since updates happen after end of episode)
+
+- Write all the equations in a cheat sheet
+
+
+18th March 2017
+
+Mountain Car Linear SArsa
+
+Deep Q network for atari games
+
+chain walk example
+
+
+# Study of Lambda and Baird's Counter Example and Parameter Divergence
+# Why Gradient TD converges for non-linear approx while TD does not?
+# Why Gradient Q-Learning converges for linear while Q-Learning linear does not converge?
+# Why Gradient Q-Learning does not converge and TD converges for non-linear?
+
+Batch Prediction:
+- Gradient descent with experience replay and fixed Q-targets
+- fixed q targets means weigths are not update frequently and are kept fixed for batch learning 
+- Once batch learning stabilises to a particulat value then weights are updated
+
+Linear Least Square Prediction
+
+Least Squares Policy Iteration Algorithms
+
+
+Score Function:
+- http://blog.shakirm.com/2015/11/machine-learning-trick-of-the-day-5-log-derivative-trick/
+- score function gradient estimation
+Asynchronous Methods for Deep Reinforcement Learning
+- a3c https://arxiv.org/pdf/1602.01783.pdf
+
+- opengym problems

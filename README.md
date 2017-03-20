@@ -16,6 +16,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 Commands used:
 ==============
 - bundle exec jekyll serve --watch --port 8000 --detach
+- bundle exec jekyll serve --watch --port 8000 --detach
 - pkill -f jekyll
 - bundle exec jekyll build
 - bundle exec jekyll build --drafts => to build drafts folder
