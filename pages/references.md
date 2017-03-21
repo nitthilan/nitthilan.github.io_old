@@ -159,6 +159,7 @@ and their Compositionality](http://papers.nips.cc/paper/5021-distributed-represe
 ### Companies / Job Opportunities
 - <http://quantaqb.co.za/>
 - <https://app.honeypot.io/profile>
+- <https://openai.com/jobs/>
 
 
 
