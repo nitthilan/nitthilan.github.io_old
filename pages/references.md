@@ -100,6 +100,7 @@ permalink: /references/
 - [Ian GoodFellow](http://www.iangoodfellow.com/)
 - [Andrej Karpathy](http://cs.stanford.edu/people/karpathy/)
 - [Andrew Trask](https://iamtrask.github.io/)
+- [](https://github.com/DanielSlater)
 
 
 ### Deep Learning
