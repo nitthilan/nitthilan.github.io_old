@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "IdAudi - Identify Audio"
+date:   2017-03-23 00:33:14 +0530
+categories: Notes, Reinforcement Learning
+---
+
+### Sound Recognition Task
+
+#### Requirements
+
+- Detect discrete sounds in an audio stream in real-time
+    - Sounds supported 
+        - Door open and close
+        - Dog bark
+        - Broken glass
+        - Gun shot
+        - Screaming
+        - Baby crying
+        - Hammering 
+        - Steps
+        - Door bell
+        - Unknown
+- Audio stream comes from a surveillance camera. Audio format is in AAC-LC, G726 or G.711
+- The module runs on conventional PC installed with Ubuntu 16.04
+- We will benchmark by collecting 100 clips per category from freesound.org. 
+    - 50 clips used for training the classifier
+    - 25 clips used for evaluation
+    - 25 clips used for testing
+- At this stage, we prioritize precision rate (TP/(TP+FP)) over recall rate (TP/(TP + FN))  (i.e. we would like to minimize false positive cases). Ideally, we hope to achieve precision rate of over 90% and recall rate of over 70% with the test clips. This is not a hard target, we will see how high we can get. If a sound is not recognized, the module should put it into unknown category for users to listen to.
+
+#### Description
+
+- The module contains two stages. 
+    - The first stage receives audio stream and functions as a pre-filtering module that extracts audio segments when sound is detected. Only audio segment that exceeds a certain threshold dB level is passed to the 2nd stage. Sound segment duration should be limited (e.g. 5 seconds). Each sound segment should be time-stamped.
+    - The second stage process sound segments received from the first stage. It contains an inference engine to identify the sound category. The sound category and timestamp is recorded in an XML file.
+    - All sound segments, timestamps and category are saved for future references.
+
+#### Tasks
+
+- Phase 1: Benchmark the performance of open source code (Estimated time: 3 weeks)
+    - We use this open source project as a reference: https://github.com/laurent-george/protolab_sound_recognition
+    - Study the source code and get familiar with the code [Note: I have tried it and it seems to work fine with the provided dataset]
+    - Collect 10 classes of sound, 100 clips each [Frank will work on that]
+    - For each class, use 50 clips for training, 25 clips for validation and 25 clips for subsequent testing of the precision and recall.
+    - Train the protolab with the clips 
+    - Determine the precision and recall level
+    - Discuss with Frank and Yusong if any enhancement is needed (e.g. using CNN in place of SVM)
+- Phase 2:  Complete the pipeline (Estimated time: 2-4 weeks)
+    - Implement enhancements determined in Phase 1, if any
+    - Implement stage 1 - Audio stream extraction stage
+    - Integrate stage 1 and stage 2

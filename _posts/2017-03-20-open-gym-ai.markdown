@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenGym AI Basics "
-date:   2017-02-16 00:33:14 +0530
+date:   2017-03-20 00:33:14 +0530
 categories: Notes, Reinforcement Learning
 ---
 
