@@ -1,0 +1,110 @@
+---
+layout: post
+title:  "RNN Implementation"
+date:   2017-03-24 11:33:14 +0530
+categories: GEM5, GPU, Installation, Simulator
+---
+
+
+#### List of Things to do
+- Cuda Programming Basics:
+    - [](http://www.nvidia.com/docs/IO/116711/sc11-cuda-c-basics.pdf)
+- Using CuBLAS or BLAS in general to optimise matrix operations
+- Looks like calculation of softmax calculation is most compute intensive and so is optimised in fastrnn
+    - h * V number of multiplications ???
+    - other optimisation solutions
+        - Class based softmax (O(sqrt(V)/h))
+        - Heirarchical Softmax log2(V)*h - faster-rnnlm
+        - Noise Contrative Estimation (O(kh)) k~20
+    - Dioganal Initialisation, RMSProp, 
+    - Lock Free Multithreading
+- Various versions of rnn:
+    - Simple RNN (no GRU or LSTM)
+    - GRU (looks like LSTM is not implemented)
+    - SCRN ???
+    - As discussed in this reference paper for rnnlm (http://www.fit.vutbr.cz/~imikolov/rnnlm/rnnlm-demo.pdf)
+        - Evaluation is done by preplexity of some data or n-best list rescoring application
+        - Maximum Entropy Model
+    - https://www.youtube.com/watch?v=GRpIy33yFZE - 
+        - Language Model - LM - assigning probablity to a list of word or a sentence
+        - Motly used in Spell correction, Machine transalation after a lattice tool i.e. getting the probably phrases from a speech to text engine etc
+- Question: Is simple RNN sufficient or should we optimise for GRU etc
+- Try running ad getting score for a simple language model. Get a test scenario
+- [On-Chip Communication Network for Efficient Training of Deep Convolutional Networks on Heterogeneous Manycore Systems](https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=ff424d53fe&view=att&th=15b1052fda7a1f8c&attid=0.1&disp=inline&realattid=794149265f706335_0.1&safe=1&zw&sadnir=1&saddbat=ANGjdJ_dehdOnTqsRk4F5EiJxrX6wjjm0s5TFbL8YyMNPKATnGtOHEHhz4DJZQNSCG4THeIr2v_ya2htTh8lC1y8nZ7hn6AMFCjM7wsZD2Tf04KeQzp4k70yg11-TAgTP0Vm66CPN59ZRzaYw06GXx6BCvQ653NOWsicm8Kfi0yB1cW8hM3jIT67AUfu7SYL6Ml_lTJoW3P26MusweuoZn6Ff5mMjFFSA3zOVLc9oMQTIgTrJf5TPu0gLEmUNlOvUhVo15Gbl8YuH6kt7aHWDlw58K30ghkauZeR8iD_it0js6whJmCDQd8_1Uvnwf_tiM-1fMpoRVR7WAw6CWULzWqSRTQLH-PpHPqhuUjPdj-6jJLtNoIHhQS_cTogiZHcIdK_FJkeWr5LUyEyjLvxuZuiCRBVlv7fT2SqtPSUuBNPMsBVv9vCN7-7FGCw7RR7WsJkLl_WXWYgMAK-Vhx37DB8jEE4VmQ0GZBhN-bhMQLmpdJ9bbDssFBr2Fno3MNxxn2B64SwDtbMqB23EdqZuIct0SpWBAIzbkDBAiAvh8HXDVfHvs8ukL7Xx8Usm_Pw2R-mJKL1TcwNWUmkRrWcyB3igBCUlKHuQAkQLLRXmo0wk3x5X4y18d_IQdWvYkHdDZb3dEfsUENYVdxFIj0gmLTxaA-Cuud3fLkYkTScLQ) 
+    - Good paper to understand the NoC and Simulator charateristics and the problem boundary
+
+#### Rnnlm library
+- Normal build works fine
+- Understanding:
+    - [RNNLM - Recurrent Neural Network Language Modeling Toolkit](http://www.fit.vutbr.cz/~imikolov/rnnlm/rnnlm-demo.pdf) - Understanding codebase
+    - [Understaning BPTT](https://pdfs.semanticscholar.org/4b7a/0ba426690b08489a86038db161846ffcfaa9.pdf)
+    - [Extensions of recurrent neural network language model](https://github.com/yihui-he/Natural-Language-Process/blob/master/Extensions%20of%20recurrent%20neural%20network%20language%20model.pdf) - Understanding Class based optimisation
+        - Reduces the 
+    - Direct Connection - Tries to use the last word value to estimate the next word directly if the word is pretty frequent usng a direct connection threshold
+- http://www.fit.vutbr.cz/~imikolov/rnnlm/google.pdf - To be read
+- http://www.fit.vutbr.cz/~imikolov/rnnlm/ - reference
+- https://github.com/yandex/faster-rnnlm - read the references section
+- http://stackoverflow.com/questions/10327939/error-no-such-instruction-while-assembling-project-on-mac-os-x
+
+- http://www.speech.sri.com/projects/srilm/download.html
+- http://www.speech.sri.com/projects/srilm/papers/asru2011-srilm.pdf
+- http://www.cs.brandeis.edu/~cs114/CS114_docs/SRILM_Tutorial_20080512.pdf
+
+
+- Queries on implementation
+- direct_size, class_size, vocab_size, bptt_block
+anti_k
+-  - save after processing so much words
+
+# GPU Simulator
+- [mail list](https://groups.google.com/forum/#!forum/gem5-gpu-dev)
+
+#### GPU Installation
+- [GEM5 Installation](http://gem5.org/Dependencies)
+- [GEM5-GPU Installation](https://gem5-gpu.cs.wisc.edu/wiki/start)
+- [Version Information Excel](https://docs.google.com/spreadsheets/d/1dPpw6M7U71SIo94wOY9axlAA6FCt4_I76NW2foZsfi4/edit#gid=3)
+- [Cuda 3.2 driver and toolkit](https://developer.nvidia.com/cuda-toolkit-32-downloads#MacOS)
+
+#### Commands
+- http://gem5.org/Dependencies
+- https://www.mercurial-scm.org/wiki/Download#Mac_OS_X - brew install mercurial
+- https://github.com/google/protobuf/blob/master/src/README.md
+- sudo brew install homebrew/dupes/m4
+- http://stackoverflow.com/questions/8360471/how-to-enable-mercurial-extensions-such-as-mq
+
+- http://stackoverflow.com/questions/14153725/installing-gcc-4-7-1-on-os-x
+- http://stackoverflow.com/questions/2477781/mercurial-abort-no-username-supplied-see-hg-help-config
+- http://jamesreubenknowles.com/how-to-install-gcc-4-7-on-mac-os-x-1774
+    - The below are not require. Just install gcc47
+    - http://stackoverflow.com/questions/2944251/changing-default-c-compiler-in-linux-using-scons
+    - http://stackoverflow.com/questions/32578106/how-to-install-python-devel-in-mac-os
+- Exporting CUDA toolkit path
+    - export CUDAHOME=/usr/local/cuda/
+- If you get errors from that complaining that 'PROTOBUF_INLINE_NOT_IN_HEADERS' is not defined in an '#if !PRO…' expression, change the '#if !' to an '#ifndef'.
+    -<http://qa.gem5.org/1545/mac-os-x-10-10-libraries-problem-dl-deprecated>
+- USe this to fix _MSC_VER not defined
+    - http://qa.gem5.org/1905/compiling-problem-gem5-mac-os-10-11-6-scons-build-arm-gem5-opt
+- vim build/X86_VI_hammer_GPU/src/gpu/copy_engine.cc
+    - ULONG_LONG_MAX = 9223372036854775807LL
+- vim build/X86_VI_hammer_GPU/gpgpu-sim/cuda-sim/instructions.cc
+    - isnan to std::isnan
+- https://groups.google.com/forum/#!topic/gem5-gpu-dev/j_LRJNrf-Lk - Router to Router_gpgpu2
+
+#### Understanding simulator
+- GEM5 - multicore full system simulator for CPU, ISA (Instruction System Architecture), 
+- http://research.cs.wisc.edu/multifacet/papers/cal14_gem5gpu.pdf
+
+#### Building RNNLIB library - Not working presently. Put on hold
+- Install Boost:
+    - [Install MacPorts and XCode](https://guide.macports.org/#installing.xcode)
+- Install netcdf:
+    - brew install homebrew/science/netcdf --with-cxx-compat
+        - Installs with hdf5 compatibility
+        - Installs with netcdfcpp.h header file
+    - [Get the latest](http://www.unidata.ucar.edu/downloads/netcdf/index.jsp)
+    - cd into the folder, ./configure, make, make install, make check
+    - used ./configure --disable-netcdf-4 to remove hdf5 dependency
+
+#### Installation
+
+#### Mercurial
