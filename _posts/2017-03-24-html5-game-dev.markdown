@@ -1,7 +1,12 @@
+---
+layout: post
+title:  "HTML5 Game Development"
+date:   2017-03-24 00:33:14 +0530
+categories: Game development, HTML5, Cordova, phaser
+---
 
 
-
-
+### Use constraints, Start right away, Keep iterating
 #### References
 - Phaser
     - [API Documentation](http://phaser.io/docs/2.6.2/index)
@@ -54,5 +59,5 @@
     - http://azhanahmad.com/article.php?id=1424
 
 #### Game Options
-
+- Board Game
 - [Card Game](http://www.emanueleferonato.com/2017/03/04/html5-deck-of-cards-management/)
