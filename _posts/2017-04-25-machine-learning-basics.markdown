@@ -40,7 +40,7 @@ categories: What, How, Why,
 	- [BackPropagation](http://neuralnetworksanddeeplearning.com/chap2.html)
 	- [How Neural Network approx. different fn?](http://neuralnetworksanddeeplearning.com/chap4.html)
 
-- Type of networks: 
+- Type of networks: [Use ConvnetJS and Playground Demo pages] 
 	- Fully Connected networks
 	- Convolutional NN
 	- Recursive NN

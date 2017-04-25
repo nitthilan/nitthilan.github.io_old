@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Optimizing Combinatorial Structured Spaces via Expensive Experiments"
+title:  "Gaussian Processes for Ranking"
 date:   2017-04-25 00:33:14 +0530
 categories:  
 ---
@@ -17,7 +17,7 @@ categories:
 	- http://www.jmlr.org/papers/volume12/shervashidze11a/shervashidze11a.pdf (this is important for this project)
 - [STAGE algorithm](https://mail.google.com/mail/u/0/?ui=2&ik=ff424d53fe&view=att&th=15b9cbcbb9030b72&attid=0.1&disp=inline&realattid=f_j1v7nxkr0&safe=1&zw)
 - [Small-world Design Space and 3D Network-on-Chip](https://arxiv.org/ftp/arxiv/papers/1608/1608.06972.pdf)
-- [Optimizing Structured Spaces via Expensive Experiments: Algorithms and Application to Manycore Systems Design](https://mail.google.com/mail/u/0/?ui=2&ik=ff424d53fe&view=att&th=15b9b699433ae895&attid=0.1&disp=inline&realattid=f_j1uuemq40&safe=1&zw)
+- [private link](https://mail.google.com/mail/u/0/?ui=2&ik=ff424d53fe&view=att&th=15b9b699433ae895&attid=0.1&disp=inline&realattid=f_j1uuemq40&safe=1&zw)
 
 #### Gaussian Process
 - [Nando Feritas Lectures](http://www.cs.ubc.ca/~nando/540-2013/lectures.html)
