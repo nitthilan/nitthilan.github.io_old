@@ -28,6 +28,23 @@ categories: Game development, HTML5, Cordova, phaser
     - [TobeRead] http://cordova.apache.org/docs/en/latest/guide/overview/index.html
     - http://cordova.apache.org/docs/en/latest/reference/cordova-cli/index.html#cordova-platform-command
 
+#### Assets
+- [Free Assets](http://kenney.nl/)
+- [Bitmap Fonts](http://www.fontspace.com/popular/fonts?p=2)
+- [Phaser Fonts](https://phaser.io/examples/v2/loader/load-bitmap-font)
+- [Mobile Dimension Simulation](https://developers.google.com/web/tools/chrome-devtools/device-mode/)
+
+#### Atlas/Spritesheet Creator
+- [Texture Packer](https://www.codeandweb.com/texturepacker)
+- [Format JSON](https://github.com/photonstorm/phaser-examples/blob/master/examples/assets/buttons/button_texture_atlas.json)
+- [Button Example](https://phaser.io/examples/v2/buttons/button-using-texture-atlas)
+- [XML to JSON](http://www.utilities-online.info/xmltojson/#.WPUYf1OGORs)
+
+- [Button Click](https://phaser.io/examples/v2/buttons/action-on-click)
+
+#### Backend
+- [SocketCluster](http://socketcluster.io/#!/docs/full-stack)
+- [Socket Cordova](https://github.com/blocshop/sockets-for-cordova)
 #### Things to learn
 - Physics system: 
 - Touch System:

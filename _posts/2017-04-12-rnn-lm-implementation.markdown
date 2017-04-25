@@ -14,7 +14,6 @@ categories: Notes, RNN, CUDA, OPTIMISATION
 
 #### Understanding Rnn
 - [Awesome rnn resource](https://github.com/kjw0612/awesome-rnn)
-
 - RNN theory:
     - [RNN From Scratch](https://github.com/pangolulu/rnn-from-scratch)
     - [RNN Effectiveness](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
