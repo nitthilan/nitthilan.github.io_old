@@ -47,6 +47,7 @@ categories: What, How, Why,
 - Narrow and General Artificial Intelligence
 
 #### Interesting Demos
+- [ImageNet Identification](https://www.clarifai.com/demo)
 - [Colorize Photos](http://richzhang.github.io/colorization/)
 - [Automatic Caption Generation](http://www.cs.toronto.edu/~nitish/nips2014demo/index.html)
 	- [Live Demo](http://deeplearning.cs.toronto.edu/i2t)
@@ -54,6 +55,8 @@ categories: What, How, Why,
 - [AlphGo](https://www.youtube.com/watch?v=uvtRWWzuybo)
 - [Roomba - Automatice Vaccum machine](https://www.irobot.com/For-the-Home/Vacuuming/Roomba.aspx)
 - [Self Driving Car](https://waymo.com/)
+- [F8 conference](https://www.youtube.com/watch?v=wDTs51XLeQs)
+- Echo, Google Now, Siri etc ..
 - [GAN Demo](http://cs.stanford.edu/people/karpathy/gan/)
 
 #### List of Software:
