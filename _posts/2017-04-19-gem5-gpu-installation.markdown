@@ -16,14 +16,6 @@ categories: GEM5, GPU, Installation, Simulator
 - [ssh enabling](https://coderwall.com/p/yx23qw/access-your-virtualbox-guest-localhost-from-your-host-os)
 - [enabling host access](https://emmanuelbernard.com/blog/2012/02/28/configuring-virtualbox-guests-to-access-the-internet-and-be-accessible-from-the-host/)
 
-#### Docker Setup
-- docker run -it ubuntu:14.04 /bin/bash
-- sudo docker commit -m "Message" d29ef4fc461a nitthilan/ubuntu_gem5gpu
-- docker cp gpucomputingsdk_3.2.16_linux.run d29ef4fc461a:/root/nitthilan
-- docker checkpoint --image-dir=/Volumes/series/Docker/checkpoint --leave-running=true d29ef4fc461a
-- sudo docker exec -i -t 665b4a1e17b6 /bin/bash => attaching to already running container [https://askubuntu.com/questions/505506/how-to-get-bash-or-ssh-into-a-running-container-in-background-mode]
-- Things to understand:
-    - docker export, docker save and docker checkpoint(experimental feature)
 
 #### Gem5 Dependencies
 - [Gem5](http://gem5.org/Dependencies)
@@ -93,9 +85,19 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/lib
     - copy the backprop file into the .img and then run full system simulation
     - /build/X86_VI_hammer_GPU/gem5.opt ../gem5-gpu/configs/fs_fusion.py
 
-- Copying and running executable within fs
+- Copying and running executable within fs [Not tried yet]
     - Some probably useful youtube videos: https://www.youtube.com/watch?v=Oh3NK12fnbg, https://www.youtube.com/watch?v=OXH1oxQbuHA#t=46.908424
     - gem5 tutorial - https://www.youtube.com/watch?v=fD3hhNnfL6k
+
+#### Frequently used docker commands
+- docker run -it ubuntu:14.04 /bin/bash
+- sudo docker commit -m "Message" d29ef4fc461a nitthilan/ubuntu_gem5gpu
+- docker cp gpucomputingsdk_3.2.16_linux.run d29ef4fc461a:/root/nitthilan
+- docker checkpoint --image-dir=/Volumes/series/Docker/checkpoint --leave-running=true d29ef4fc461a
+- sudo docker exec -i -t 665b4a1e17b6 /bin/bash => attaching to already running container [https://askubuntu.com/questions/505506/how-to-get-bash-or-ssh-into-a-running-container-in-background-mode]
+- Things to understand:
+    - docker export, docker save and docker checkpoint(experimental feature)
+
 
 #### Errors Faced and Possible fix:
 - If you get errors from that complaining that 'PROTOBUF_INLINE_NOT_IN_HEADERS' is not defined in an '#if !PRO…' expression, change the '#if !' to an '#ifndef'.
