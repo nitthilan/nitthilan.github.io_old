@@ -5,6 +5,13 @@ date:   2017-02-16 00:33:14 +0530
 categories: Notes, zerodha, varsity
 permalink: /fundamental_analysis.html
 ---
+https://www.screener.in/api/users/me/
+
+https://www.screener.in/api/company/2957/prices/?what=years&period=3
+
+https://www.screener.in/api/company/SHALPAINTS/consolidated
+
+https://www.screener.in/api/company/494/peers/?industry=Furniture-Furnishing-Paints
 
 Things to understand in Fundamental analysis
 

@@ -1,0 +1,15 @@
+
+
+
+https://medium.com/jim-fleming/notes-on-the-numerai-ml-competition-14e3d42c19f3
+https://medium.com/@Yettie/how-i-predicted-the-stock-market-at-numerai-ml-tournament-final-tutorial-1b46c459b7ba
+
+- Bitcoin world:
+- Ethereum token
+-  ETH or BTC for Numeraire
+
+- numerai
+- https://github.com/atreichel/NumerAPI
+- notebooks: https://github.com/gansanay/numerai/tree/master/doc/notebooks
+- https://github.com/jimfleming/numerai
+- https://medium.com/numerai

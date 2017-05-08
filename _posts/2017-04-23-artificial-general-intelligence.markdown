@@ -9,6 +9,21 @@ categories: AGI, Artificial General Intelligence, GoodAi,
 - Try listing down the various modules involved in a brain - Deepmind video had a slide
 - Try fitting module for each and start developing code solving the problem at hand
 - 
+
+#### Reference
+- https://inclass.kaggle.com/c/forecasting-complex-seasonal-timeseries
+
+#### InfoGAN:
+- [OpenAI GAN](https://blog.openai.com/generative-models/)
+	- [GAN](https://arxiv.org/pdf/1406.2661.pdf)
+- [InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets](https://arxiv.org/pdf/1606.03657.pdf)
+- [TensorFlow Implimentation Git](https://github.com/openai/InfoGAN)
+- [Keras Implementation Git](https://github.com/tdeboissiere/DeepLearningImplementations/tree/master/InfoGAN)
+
+#### Other important links
+- [Various implementation of papers](https://github.com/tdeboissiere/DeepLearningImplementations)
+- [fchollet twitter](https://twitter.com/fchollet?lang=en)
+- [Reference For various deep learning](http://p.migdal.pl/2017/04/30/teaching-deep-learning.html)
 #### Reference
 - General AI challenge:
 	- [GoodAi: General AI Challenge - Round 1 (gh)](https://github.com/general-ai-challenge/Round1)
@@ -28,6 +43,18 @@ categories: AGI, Artificial General Intelligence, GoodAi,
 - [Curriculum Learning](http://www.machinelearning.org/archive/icml2009/papers/119.pdf)
 	- [Baby AI School](http://www.iro.umontreal.ca/~lisa/twiki/bin/view.cgi/Public/BabyAISchool)
     - [Deep Architectures for Baby AI](http://www.cs.toronto.edu/~amnih/cifar/talks/bengio_tutorial.pdf) - Yoshua Bengio
+
+#### References
+- [Facebook AI director Yann LeCun: A Path to AI Keynote Speech - YT](https://www.youtube.com/watch?v=r7itbCYaSNQ)
+
+#### Unprocessed Links:
+- https://research.fb.com/category/facebook-ai-research-fair/
+- https://www.general-ai-challenge.org/updates - Looks important
+- https://www.quora.com/How-do-I-get-into-artificial-general-intelligence
+- Godel Machines: https://arxiv.org/pdf/cs/0309048.pdf
+- A Monte-Carlo AIXI Approximation: http://www.aaai.org/Papers/JAIR/Vol40/JAIR-4004.pdf
+- https://sites.google.com/site/narswang/home/agi-introduction
+- http://www.agi-society.org/resources/
 
 #### Random Tools:
 - RNN - Serial processing
@@ -65,7 +92,13 @@ or when I want to learn to hear about apple I can imagine the sound of apple or 
 			- [PathNet](https://medium.com/@thoszymkowiak/deepmind-just-published-a-mind-blowing-paper-pathnet-f72b1ed38d46)
 			- [Evolution Statergies](https://blog.openai.com/evolution-strategies/)
 		- [Elastic Weight Consolidation](http://www.wired.co.uk/article/deepmind-atari-learning-sequential-memory-ewc)
-	- 
+#### Key areas:
+	- Memory
+	- Attention
+	- Concepts
+	- Planning
+	- Navigation
+	- Imagination
 #### Other research labs:
 - Facebook AI Research:
 	- [Blog](https://research.fb.com/)
@@ -79,3 +112,40 @@ or when I want to learn to hear about apple I can imagine the sound of apple or 
 - OpenAi:
 	- [](https://blog.openai.com/evolution-strategies/)
 - [Journal of Artificial General Intelligence](https://www.degruyter.com/view/j/jagi)
+
+- Minibank for saving money for kids
+- ability to get good deals by buying things with friend near by and thus reducing cost of delivery. Linking neughbors together.
+- Ability to generate movies faster with AI
+- https://creativemarket.com/
+
+Solution which seems to address a similar problem seems to be Neural Turing Machine/ Differentiable Neural Computers. I am yet to understand this. 
+
+The rough direction for a possible solution, I had in mind is:
+(1) A supervised learning neural network - CNN, LSTM or RNN based on what it is learning
+    - CNN would be good for getting information about the whole picture in a multi-resolution approach. it could be image identification or paragraph sentiment analysis
+    - While a serial or list based information interpretation would involve an LSTM or RNN. Like text analysis/generation, pixelRNN etc
+
+(2) Then this network would get generalised more and more for different kind of tasks. Probably a generic CNN+RNN combination whose complexity could be increased by adding more layers to generalise more information. Like say there is a network which could understand numbers, by probably adding more layers (or increasing the num neurones in a particular layer), we increase make is understand alphabets, shapes etc.
+
+(3) Ideally, an information storage and retrieval system could be approximated by directly storing the information in memory as a hash/key-value map i.e. we can either store the image directly with the corresponding inferences of the image. Thus if one wants to retrieve the information about the image they use this mapping to get the inferences or vice-versa. Probably like a graph.
+           - Another way would be to store information as like in Generative Adversarial Models. Store the information about various types of images like cloud images as a trained network which can generate one based on input. (I have not fully understood GAN yet but the little I read seems to point in this direction) This could be something similar to imagination where we re-run a scenario to learn it or understand it better
+
+(4) So we have a memory hierarchy which can have direct access [but limited in size like the key-value pair](short term memory) and a long-term representation like that of a GAN kind of network which can generate images based on the generalisation which has been stored on the earlier representations. Images in the short term would move to long term after they have been successfully trained and then would/could be deleted from the short term.
+
+(5) Now we have a memory system which stores the information and a generalised supervised learning NN which can scale up or down.
+
+(6) So a learning algorithm which tries to optimise the available resource like:
+    - (a) time - how long does it take to retrieve an information or answer a query
+    - (b) size of the network - how deep or wide should the network be to accommodate the available information (probably by information like underfitting and overfitting etc)
+- This could be a probable application for RL. The reason I got pulled to this was the result published by google where Intelligent agents can play atari games by themselves followed by the "alphaGo" success. 
+
+
+(7) So let's say we are training a machine to understand the following in increasing order of complexity (a) shapes (b) numbers  (c) addition etc....
+- The algorithm could be:
+    (a) training set for shapes with the corresponding test (could be like test questions behind a textbook) used to train a basic supervised NN
+    (b) the data used for shapes could be stored directly as key value pairs
+    (c) Then once the supervised NN is trained the data could then be stored as a representation in a GAN to reduce the space
+    (d) Then the same supervised learning network could be used to train numbers.
+    (e) We could try reusing the weights by transfer learning. 
+    (f)  Then an RL algorithm could be run to optimise the number of NN units by running the GAN for generating the data required for retraining.
+    (g) This process could be repeated for every new thing to train by gradually growing the supervised NN size and increasing the GANs
