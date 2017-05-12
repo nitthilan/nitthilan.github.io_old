@@ -10,6 +10,49 @@ categories: AGI, Artificial General Intelligence, GoodAi,
 - Try fitting module for each and start developing code solving the problem at hand
 - 
 
+#### Genreral AI Challenge
+- https://drive.google.com/file/d/0B820uHFOHp0mODQ3SFpzV01JTnc/view - Evaluation metric
+- https://www.general-ai-challenge.org/active-rounds
+
+#### Gradual Learning
+- Incremental Learning, Curriculam learning, Transfer learning, cummulative learning
+- REcursive self-improvement - builiding a architecture to learn the next architecture
+- 
+
+#### List of important links:
+- https://www.goodai.com/school-for-ai
+- Differential Neural computer:
+	- https://github.com/dsindex/blog/wiki/%5Bdnc%5D-Differentiable-Neural-Computer
+	- http://www.readcube.com/articles/10.1038/nature20101?shared_access_token=3UerOr1f0fy3oL_CytWdxtRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSujsARxGW1q2qxK0cTqi1Bup-nSH200cGUW_ET9MIG_6rvvXTcoxOnAX6B4E8dQs4FQ-yScxXe8EB0XnzqbUw3Qw%3D%3D - Nature Paper
+	- https://www.youtube.com/watch?v=r5XKzjTFCZQ - Siraj You Tube video
+	- https://www.youtube.com/watch?v=xILOeonmQi4 - Artificial Intelligence Pioneer Yoshua Bengio: Creating Human Level AI
+	- Gated Graph Sequence Neural Networks - https://arxiv.org/abs/1511.05493
+	- https://news.ycombinator.com/item?id=12694779
+	- Deep Mind Blog: https://deepmind.com/blog/differentiable-neural-computers/
+- https://arxiv.org/abs/1410.4615 - Learning to Execute
+- Curriculum Learning - https://ronan.collobert.com/pub/matos/2009_curriculum_icml.pdf
+- General Game Playing competition AI:  http://www.gvgai.net/
+- The 2014 General Video Game Playing Competition - http://ieeexplore.ieee.org/document/7038214/
+
+- https://github.com/facebookresearch/CommAI-env
+
+- Youtube Discussions:
+	- https://www.youtube.com/watch?v=wWklO5ACvUQ - Recent stream. Worth the watch
+	- https://www.youtube.com/watch?v=Wy9ZoPpgtjU - To be looked into
+
+- KPI - Key Performance Indicators
+	- GAP Analysis: organizational managers can use to work out the size, and sometimes the shape, of the strategic tasks to be undertaken in order to move from its current state to a desired, future state.
+
+#### Probably important but not read
+- http://openml2017dev.openml.org/
+- https://chatbotslife.com/why-meta-learning-is-crucial-for-further-advances-of-artificial-intelligence-c2df55959adf
+
+#### Understanding the framework
+- https://arxiv.org/pdf/1611.00685.pdf
+- Possible future references:
+	- [Building Machines That Learn and Think Like People](https://arxiv.org/pdf/1604.00289.pdf)
+	- [A Roadmap towards Machine Intelligence](https://arxiv.org/pdf/1511.08130.pdf)
+	- [Russell's Logical Atomism](https://plato.stanford.edu/archives/spr2016/entries/logical-atomism/)
 #### Reference
 - https://inclass.kaggle.com/c/forecasting-complex-seasonal-timeseries
 
@@ -55,6 +98,7 @@ categories: AGI, Artificial General Intelligence, GoodAi,
 - A Monte-Carlo AIXI Approximation: http://www.aaai.org/Papers/JAIR/Vol40/JAIR-4004.pdf
 - https://sites.google.com/site/narswang/home/agi-introduction
 - http://www.agi-society.org/resources/
+- https://www.ibm.com/watson/developercloud/  - Watson cloud
 
 #### Random Tools:
 - RNN - Serial processing

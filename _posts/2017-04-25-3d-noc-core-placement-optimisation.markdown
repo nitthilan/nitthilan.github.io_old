@@ -15,19 +15,45 @@ categories:
 - Graph Kernels
 	- http://people.cs.uchicago.edu/~risi/papers/VishwanathanGraphKernelsJMLR.pdf (an overview of concepts)
 	- http://www.jmlr.org/papers/volume12/shervashidze11a/shervashidze11a.pdf (this is important for this project)
+	- https://www.cs.ucsb.edu/~xyan/tutorial/GraphKernels.pdf
 - [STAGE algorithm](https://mail.google.com/mail/u/0/?ui=2&ik=ff424d53fe&view=att&th=15b9cbcbb9030b72&attid=0.1&disp=inline&realattid=f_j1v7nxkr0&safe=1&zw)
 - [Small-world Design Space and 3D Network-on-Chip](https://arxiv.org/ftp/arxiv/papers/1608/1608.06972.pdf)
 - [private link](https://mail.google.com/mail/u/0/?ui=2&ik=ff424d53fe&view=att&th=15b9b699433ae895&attid=0.1&disp=inline&realattid=f_j1uuemq40&safe=1&zw)
 
 #### Reference 2
+- optimizing combinatorial structured spaces
+	- [Preference Learning with Gaussian Processes](http://mlg.eng.cam.ac.uk/zoubin/papers/icml05chuwei-pl.pdf)
+	- [Extensions of Gaussian Processes for Ranking: Semi-supervised and Active Learning](https://pdfs.semanticscholar.org/af25/75ccaa688890a11f78a58c061ece7ca7399c.pdf)
+	- [Semi-supervised Gaussian Process Classifiers](http://vikas.sindhwani.org/ssgp.pdf)
+	- [Gaussian Process Preference Elicitation](http://users.cecs.anu.edu.au/~sguo/gppe.pdf) - paper is indirectly relevant. We need to see if we can map and/or leverage some of the insights from this paper.
 - [Bayes Optimisation 2016](https://bayesopt.github.io/accepted.html)
-- [Gaussian Process Preference Elicitation](http://users.cecs.anu.edu.au/~sguo/gppe.pdf)
-- [Machine Learning and Manycore Systems: A Serendipitous Symbiosis - Read](https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=ff424d53fe&view=att&th=15bbb8965bd15ab4&attid=0.1&disp=inline&realattid=f_iz0e9zdm0&safe=1&zw&saddbat=ANGjdJ9E8QKU9s-wFPAWNgNb1cGRVDBuswoomRVPuE4E_OiQbXaEuGFj7om3kjkZWTIIvyP9GdQXfii_aKtGryNHGZCu7bzKLDnnhmtxTV4hJJ71OVfIYSazMvIocnkU-D99kTrHWmWlf9QI340i5pQNZIU7LD30BaYe4-goS0K6Y7exbvj7kpdeTSqy4cFw2pOjhO_i3txedKt1BUuC_TgxPJ-K-XX-A1_AfOAopHhFiHB3sFQIBWie3VjALMMVcT9vUG69LJyqcBb1QQb6K0mDVtjPNTz5KJH0_whNy89W3z-_z60G1DN8uzsNJEsJwB_CCA7Xd6dr0EC6gS5c8wZKUhXmBydKbG21LFbYTCBVpH6tv0Db3LDVe6lnbhZQQOpLlOxP8hjzEQeduEUAxv1Tylp69Mz3DjjsVwLN1pY8Tr-RZQl2hwtw5CzdwPJl1XHAYKbsF8Mnit-pothCvuyNdshyUjDsad9oCIHOrmLBzjN0a87J4ijOxthG2Tn_NiFStmfYSLcPUOu3H4l3T5DTwQRUVUsESNjHhkf91Iiv6VDKxJ4l3EEeuFGuyeFsoQ9cldAFuhDmNFUvOehX1V9Ni7jFxhb27TDrdSfsT4oQqw5sBehzvIQbaq_uFTz5rMM2RP3zmnwsxwi_RQBIhttps://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=ff424d53fe&view=att&th=15bbb8965bd15ab4&attid=0.1&disp=inline&realattid=f_iz0e9zdm0&safe=1&zw&saddbat=ANGjdJ9E8QKU9s-wFPAWNgNb1cGRVDBuswoomRVPuE4E_OiQbXaEuGFj7om3kjkZWTIIvyP9GdQXfii_aKtGryNHGZCu7bzKLDnnhmtxTV4hJJ71OVfIYSazMvIocnkU-D99kTrHWmWlf9QI340i5pQNZIU7LD30BaYe4-goS0K6Y7exbvj7kpdeTSqy4cFw2pOjhO_i3txedKt1BUuC_TgxPJ-K-XX-A1_AfOAopHhFiHB3sFQIBWie3VjALMMVcT9vUG69LJyqcBb1QQb6K0mDVtjPNTz5KJH0_whNy89W3z-_z60G1DN8uzsNJEsJwB_CCA7Xd6dr0EC6gS5c8wZKUhXmBydKbG21LFbYTCBVpH6tv0Db3LDVe6lnbhZQQOpLlOxP8hjzEQeduEUAxv1Tylp69Mz3DjjsVwLN1pY8Tr-RZQl2hwtw5CzdwPJl1XHAYKbsF8Mnit-pothCvuyNdshyUjDsad9oCIHOrmLBzjN0a87J4ijOxthG2Tn_NiFStmfYSLcPUOu3H4l3T5DTwQRUVUsESNjHhkf91Iiv6VDKxJ4l3EEeuFGuyeFsoQ9cldAFuhDmNFUvOehX1V9Ni7jFxhb27TDrdSfsT4oQqw5sBehzvIQbaq_uFTz5rMM2RP3zmnwsxwi_RQBI)
+	- [Bayesian Optimisation with Pairwise Preferential Returns](https://bayesopt.github.io/papers/2016/Gonzalez.pdf)
+- [NEURAL ARCHITECTURE SEARCH WITH REINFORCEMENT LEARNING](https://openreview.net/forum?id=r1Ue8Hcxg&noteId=r1Ue8Hcxg)
+
 
 #### Reference 3
 - [Scikit Implementation](http://scikit-learn.org/stable/modules/gaussian_process.html)
+	- [Tutorial](https://blog.dominodatalab.com/fitting-gaussian-process-models-python/)
 - [GraphKernals](https://github.com/eghisu/GraphKernels)
+	- [PyKernal](https://github.com/gmum/pykernels) - Does not seem to support WL Kernals
 - [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://arxiv.org/pdf/1704.04760.pdf)
+
+#### Reference 4
+- [NEURAL ARCHITECTURE SEARCH WITH REINFORCEMENT LEARNING](https://openreview.net/pdf?id=r1Ue8Hcxg) - [link1](https://openreview.net/forum?id=r1Ue8Hcxg&noteId=r1Ue8Hcxg)
+- [COMPOSITIONAL KERNEL MACHINES](http://homes.cs.washington.edu/~pedrod/papers/iclr17.pdf)
+- [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://arxiv.org/pdf/1704.04760.pdf) - ISCA 2017 paper detailing their TPUs (ASIC for deep learning inference). In particular the performance, energy, and other considerations
+- [Imitation Learning for Dynamic VFI Control in Large-Scale Manycore Systems](https://mail.google.com/mail/u/0/?ui=2&ik=ff424d53fe&view=att&th=15bbb8c817ab73f3&attid=0.2&disp=inline&realattid=f_j1zlobao1&safe=1&zw) - TVLSI paper where we looked at the dynamic optimization problem. we can develop a more efficient approach building on the work we are doing for optimizing structured spaces
+- [Machine Learning and Manycore Systems: A Serendipitous Symbiosis - Read](https://mail.google.com/mail/u/0/?ui=2&ik=ff424d53fe&view=att&th=15bbb8965bd15ab4&attid=0.1&disp=inline&realattid=f_iz0e9zdm0&safe=1&zw) - IEEE computer paper (under review) may be useful to get a broader perspective about the problem space
+
+#### Reference 5
+- [Probabiistic Graphical Models](https://ermongroup.github.io/cs228-notes/)
+	- [Structure Learning](https://hazyresearch.github.io/snorkel/blog/structure_learning.html)
+- http://www.offconvex.org/2017/03/30/GANs2/
+#### Reference 6
+- [Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](https://arxiv.org/pdf/1603.06560.pdf)
+- [Hyper Band : Embracing the Random](http://www.argmin.net/2016/06/23/hyperband/)
+- [HyperTuning : The News on Auto-tuning](http://www.argmin.net/2016/06/20/hypertuning/)
+- [Machine Learning with World Knowledge: The Position and Survey](https://arxiv.org/pdf/1705.02908.pdf)
 
 #### Gaussian Process
 - [Nando Feritas Lectures](http://www.cs.ubc.ca/~nando/540-2013/lectures.html)
@@ -110,6 +136,10 @@ categories:
 - Positive semidefinite: In the last lecture a positive semidefinite matrix was defined as a symmetric matrix with non-negative eigenvalues.
 - https://www.cse.iitk.ac.in/users/rmittal/prev_course/s14/notes/lec11.pdf
 
+- Beta Distribution: https://en.wikipedia.org/wiki/Beta_distribution
+- [genfromtext](https://docs.scipy.org/doc/numpy/reference/generated/numpy.genfromtxt.html)
+- [lil_matrix](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.lil_matrix.html)
+
 #### Understanding Gaussian Process
 - ??? combinatorial structured objects, combinatorial spaces, Multi-armed bandit experiments
 - T-distribution instead of gaussian kernals
@@ -128,3 +158,10 @@ categories:
 #### Understanding the problem statement
 - The Core placement on a chip is considered as a graph with links as edges and cores are node
 - 
+
+
+#### General Understanding
+- Small-world design space for 3D NoC:
+	- 
+- UCB and EI acquision function using the learned GP model.
+- STAGE and/or RLS to optimize the acquision function 

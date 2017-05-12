@@ -14,6 +14,7 @@ permalink: /references/
 - [Jekyll Site](#jekyll-site)
 - [People and Forums](#people-and-forums)
 - [Companies](#companies)
+- [Frank's Link](#frank-links)
 
 
 ### Reinforcement Learning
@@ -152,17 +153,19 @@ and their Compositionality](http://papers.nips.cc/paper/5021-distributed-represe
 - [Udacity self driving car dataset](https://github.com/udacity/self-driving-car)
 
 ### Jana Suggestions
-
+- [Generative Adversarial Networks (GANs), Some Open Questions](http://www.offconvex.org/2017/03/15/GANs/)
+- [Generalization and Equilibrium in Generative Adversarial Networks (GANs)](http://www.offconvex.org/2017/03/30/GANs2/)
+- [Generalization and Equilibrium in Generative Adversarial Nets (GANs)](https://arxiv.org/pdf/1703.00573.pdf)
+- [Wasserstein GAN](https://arxiv.org/pdf/1701.07875v2.pdf) - WGANs from Leon Bottou's group
+- [Back-propagation, an introduction](http://www.offconvex.org/2016/12/20/backprop/)
+- [A Primer on Neural Network Models for Natural Language Processing](http://www.jair.org/media/4992/live-4992-9623-jair.pdf) - Neural Networks for Natural Language Processing
+- [Minimizing the Maximal Loss: Why and How?](http://www.cs.huji.ac.il/~shais/talks/FOL_talk.pdf) - very relevant for the journal extension of ICAPS paper and UAI paper. context of your semi-supervised structured learning work.
+- [Failures of Deep Learning](https://arxiv.org/pdf/1703.07950.pdf)
 - [Rules of Machine Learning:Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 - [AI for social good](http://cra.org/ccc/wp-content/uploads/sites/2/2016/04/AI-for-Social-Good-Workshop-Report.pdf)
-- [On-Chip Communication Network for Efficient Training of Deep Convolutional Networks on Heterogeneous Manycore Systems](https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=ff424d53fe&view=att&th=15b1052fda7a1f8c&attid=0.1&disp=inline&realattid=794149265f706335_0.1&safe=1&zw&saddbat=ANGjdJ-cIS9GrOqtmBwLjmn_0ykeeP-1bKoTLhCPsSzD-RaLgtHPMbvxAuDcTZyilizINMgT1fYeOhj2RVmgVZF0afFLS7wuoBXZMXwF4FQdinY1qhwaaULeEShZ7UHJh9EcoxDz1UznV8bzDjF6O9_RexqbUxaUukCQl5mJ07nVK3MKTDW6OM0tkQUnoz31OrmdRex-H_Boh2mAbtIuS52qNGNyX8EN44WF2zEPICK_djJX1ffvsa2z9cLzmVLyYtUw1mNJVbFuOt8aAM4xWSopZfSpx6dc2e5Y_YB-sf1OOTARYl9oLiGcQ3_mtCAgJHXbZB4xtsc6md3zO25vt9qRUADBrQhW-I4N7N0ngwb9ntxIQmPOS34QzLRlZOCq-ccxgTo09Ofei9fA8AiruJz_RgZLVn03iq3WsLGRpbIB9CazpXvhxnYYtRSkyl6VTSvbjWybOkFnHKf32tbtqkbs6xxVw1rJllA1l94UHGZCmDcEOXbDu07ALpZv_tj4749UAxuv1oXaMtCR-0h_mY7_20GuMX01y_xINsn8-k-F0b302mMryfbmqg1EMtNdQFVkS08lUnyAOvyvmdjMBEp3H2U5A-TbAYEWQgS1fahi6VWQERoMlOufRFpbzgumV3uroktFK8wh6r-IuQ6lh2lH534rMneGTew-oBRdVw)
-- [A Primer on Neural Network Models for Natural Language Processing](http://www.jair.org/media/4992/live-4992-9623-jair.pdf)
-- [Wasserstein GAN](https://arxiv.org/pdf/1701.07875v2.pdf)
-- [Generalization and Equilibrium in Generative Adversarial Nets (GANs)](https://arxiv.org/abs/1703.00573)
-- [Generative Adversarial Networks (GANs), Some Open Questions](http://www.offconvex.org/2017/03/15/GANs/)
-- [Minimizing the Maximal Loss: Why and How?](http://www.cs.huji.ac.il/~shais/talks/FOL_talk.pdf)
-- [Failures of Deep Learning](https://arxiv.org/pdf/1703.07950.pdf)
+
 - [NEURAL ARCHITECTURE SEARCH WITH REINFORCEMENT LEARNING](https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=ff424d53fe&view=att&th=15b588508dca654e&attid=0.1&disp=inline&realattid=f_j1ca91ge0&safe=1&zw&saddbat=ANGjdJ8vh8DOGPW9jCv6PJmfRJ1KXiPg87NT-IdHl2jBCnb7EEu2sOY2N5tpYJURb30NBvcEjNxuY6A0z8j-J-kZ9zGAtkLT_3w6rPq-xmmhllX-_T4F_q_d2o2lGop_5c4CC_fzKW9xL6S4yHxZackRBtA7rAsyDmAQSd3aj5H7DCuAN3XX0K0Dq3w4G7ytA7_4Oa77qEFd44CvWrbz1S5vaqP2z6RTN_0_yRzhdUj6xkT5cNZJSs05eLIhv9uaFI0_F239aYMmwVveVoBbgD6ZaRI3L1LVIpzKPlxzHj9xIg8WMCEcowVFICJ7GAwwcsvh7_BOfDa-DwXyV7XypnqNqbTVoILRPL_U1KxeLLBpXFs52ENVuKM46p3iAMPLFFx9sQmDc_NQYLDPo4YTjJd5sjFu_71Pvr65XKEpquWfoD9Ie0f-RJEoHQ2tWVsK0Qhug8ahAesPk3JjXeJKKs0OzkyJdkvcKaDPs5rFdrb18W4kEfIHTabZTkR57BA38zlPTPiDTVaov4vXOzfrOd8BsGdISzlTDg_0xkQpnPZ8YpQbvwAz-ag6LT6YZ7N2i0lqKn0vsxka2PjWOZBbAcb1Bh77z_t5QlZl5OQNrnM13kHej83QIZmfy_hflO3RiSa101apxGA89dJB4-LBUHcElq0n7PUcQDiGat4kSQ)
+- [On-Chip Communication Network for Efficient Training of Deep Convolutional Networks on Heterogeneous Manycore Systems](https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=ff424d53fe&view=att&th=15b1052fda7a1f8c&attid=0.1&disp=inline&realattid=794149265f706335_0.1&safe=1&zw&saddbat=ANGjdJ-cIS9GrOqtmBwLjmn_0ykeeP-1bKoTLhCPsSzD-RaLgtHPMbvxAuDcTZyilizINMgT1fYeOhj2RVmgVZF0afFLS7wuoBXZMXwF4FQdinY1qhwaaULeEShZ7UHJh9EcoxDz1UznV8bzDjF6O9_RexqbUxaUukCQl5mJ07nVK3MKTDW6OM0tkQUnoz31OrmdRex-H_Boh2mAbtIuS52qNGNyX8EN44WF2zEPICK_djJX1ffvsa2z9cLzmVLyYtUw1mNJVbFuOt8aAM4xWSopZfSpx6dc2e5Y_YB-sf1OOTARYl9oLiGcQ3_mtCAgJHXbZB4xtsc6md3zO25vt9qRUADBrQhW-I4N7N0ngwb9ntxIQmPOS34QzLRlZOCq-ccxgTo09Ofei9fA8AiruJz_RgZLVn03iq3WsLGRpbIB9CazpXvhxnYYtRSkyl6VTSvbjWybOkFnHKf32tbtqkbs6xxVw1rJllA1l94UHGZCmDcEOXbDu07ALpZv_tj4749UAxuv1oXaMtCR-0h_mY7_20GuMX01y_xINsn8-k-F0b302mMryfbmqg1EMtNdQFVkS08lUnyAOvyvmdjMBEp3H2U5A-TbAYEWQgS1fahi6VWQERoMlOufRFpbzgumV3uroktFK8wh6r-IuQ6lh2lH534rMneGTew-oBRdVw)
 
 
 ### System Setup
@@ -177,6 +180,9 @@ and their Compositionality](http://papers.nips.cc/paper/5021-distributed-represe
 - <https://app.honeypot.io/profile>
 - <https://openai.com/jobs/>
 
+### Frank Links
+- [Google Drive - Private](https://drive.google.com/drive/u/1/folders/0B-W2ezgusdcEY1dVckdNZktnbm8)
+- [RDWiki - Private](https://sites.google.com/a/deepphoton.com/rdwiki/project-definition)
 
 
 ### Stock Picking
