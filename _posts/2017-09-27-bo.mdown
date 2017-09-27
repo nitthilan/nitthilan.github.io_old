@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bayesian Optimisation"
-date:   2017-02-16 00:33:14 +0530
+date:   2017-09-17 00:33:14 +0530
 categories: Notes, BO, Bayesian Optimisation, Gaussian Process
 ---
 
@@ -14,8 +14,6 @@ categories: Notes, BO, Bayesian Optimisation, Gaussian Process
 - Gaussian Process
 
 # Problem Setup
-
-
 
 - Mutli Arm Bandit Problem:
 	- Exploration Exploitation Paradigm
