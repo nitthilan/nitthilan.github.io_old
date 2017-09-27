@@ -10,6 +10,60 @@ categories: AGI, Artificial General Intelligence, GoodAi,
 - Try fitting module for each and start developing code solving the problem at hand
 - 
 
+
+Things to read next:
+- PathNet: https://arxiv.org/abs/1701.08734
+- Agent Road Map: https://media.wix.com/ugd/2f0a43_091d76d2b0354b0db4d88c3a57fdf76d.pdf
+- Curriculum Learning - https://ronan.collobert.com/pub/matos/2009_curriculum_icml.pdf
+- dynamic neural computers:
+	- https://www.nature.com/articles/nature20101.epdf?author_access_token=ImTXBI8aWbYxYQ51Plys8NRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSurJ3hxupzWuRNeGvvXnoO8o4jTJcnAyhGuZzXJ1GEaD-Z7E6X_a9R-xqJ9TfJWBqz
+
+- https://papers.nips.cc/paper/6057-using-fast-weights-to-attend-to-the-recent-past.pdf
+
+
+
+
+- Concretise a problem statement where I could make maximum impact
+- This has a wide range of sub-problems and sub-domains. So wanted to identify a domain/sub-problem to work on.
+- Though the general idea is to solve intelligence. Then solve everything using it. Like other machine learning problems wanted to identify an application/area where the sub-problem could be applied to have some practical impact rather than a theoretical endeavour.
+- Finding an optimal position where there is a good overlap of interests between our interests. I want to eventually create a framework for self-optimizing hardware/software systems. I have put in some of those ideas in this center proposal.
+
+- Doing the above without getting scooped out (I assume it means getting overshadowed by their results and publications)
+
+
+In general, my understanding of the problem is based on the material I read at GoodAi (https://www.goodai.com/). I just read about their framework and roadmap
+https://arxiv.org/abs/1611.00685 - Framework
+https://media.wix.com/ugd/2f0a43_091d76d2b0354b0db4d88c3a57fdf76d.pdf - Roadmap
+
+They are currently organising a challenge where they are targeting gradual learning (a variation of transfer learning).
+
+https://www.general-ai-challenge.org/active-rounds
+https://github.com/general-ai-challenge/Round1
+
+
+This challenge seems to address the problem which Facebook also seems to be pursuing called the https://github.com/facebookresearch/CommAI-env
+
+My basic idea is to have a teacher which can teach (thereby restrict) the solution space for a system to learn and then once the basic stuff is taught the system tries to learn new tasks based on knowledge gained on old task and more teaching.
+
+The competitions are a reduced form of this whole problem where a bit/byte as given as feedback from the environment for a user action which is bit/byte and a corresponding reward. Based on this feedback the agent has to learn to interact with/maximise the reward from the environment.
+
+I was looking at this challenge and in that regard, I had identified few modules which I felt would be helpful in solving the problem. They are:
+
+- Memory Augmentation:
+    - Differential Neural computer: http://www.readcube.com/articles/10.1038/nature20101?shared_access_token=3UerOr1f0fy3oL_CytWdxtRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSujsARxGW1q2qxK0cTqi1Bup-nSH200cGUW_ET9MIG_6rvvXTcoxOnAX6B4E8dQs4FQ-yScxXe8EB0XnzqbUw3Qw%3D%3D - Nature Paper
+    - Neural Turing Machines
+
+- Curriculum Learning:  https://ronan.collobert.com/pub/matos/2009_curriculum_icml.pdf
+
+- Transfer Learning/ Gradual Task-based learning: PathNets: https://arxiv.org/abs/1701.08734
+
+- Attention mechanisms
+
+
+
+
+- http://blog.kaggle.com/2017/05/09/dstl-satellite-imagery-competition-3rd-place-winners-interview-vladimir-sergey/
+
 #### Genreral AI Challenge
 - https://drive.google.com/file/d/0B820uHFOHp0mODQ3SFpzV01JTnc/view - Evaluation metric
 - https://www.general-ai-challenge.org/active-rounds
@@ -18,6 +72,23 @@ categories: AGI, Artificial General Intelligence, GoodAi,
 - Incremental Learning, Curriculam learning, Transfer learning, cummulative learning
 - REcursive self-improvement - builiding a architecture to learn the next architecture
 - 
+
+#### Computers Learn to write program
+- https://www.youtube.com/watch?v=B70tT4WMyJk - Neural Programmer-Interpreters Learn To Write Programs
+- [Neural Programmer-Interpreters](http://www-personal.umich.edu/~reedscot/iclr_project.html)
+
+#### Natural Language Processing (Stanford Lectures)
+- [Dependency Parsing](https://www.youtube.com/watch?v=PVShkZgXznc&list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6&index=6)
+- [Lecture Collection | Natural Language Processing with Deep Learning (Winter 2017)](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
+- Some pointers to search for:
+	- nivre 2003 greedy transition based parsing
+	- transition-based parsing or deterministic dependency parsing
+	- symbolic and nonsymbolic resoning
+	- universal dependencies stanford
+	- consistency grammar
+	- dependency grammar more popular
+	- context free grammar
+	- https://en.wikipedia.org/wiki/Catalan_number
 
 #### List of important links:
 - https://www.goodai.com/school-for-ai
@@ -31,6 +102,7 @@ categories: AGI, Artificial General Intelligence, GoodAi,
 	- Deep Mind Blog: https://deepmind.com/blog/differentiable-neural-computers/
 - https://arxiv.org/abs/1410.4615 - Learning to Execute
 - Curriculum Learning - https://ronan.collobert.com/pub/matos/2009_curriculum_icml.pdf
+- PathNets : 
 - General Game Playing competition AI:  http://www.gvgai.net/
 - The 2014 General Video Game Playing Competition - http://ieeexplore.ieee.org/document/7038214/
 
@@ -39,6 +111,10 @@ categories: AGI, Artificial General Intelligence, GoodAi,
 - Youtube Discussions:
 	- https://www.youtube.com/watch?v=wWklO5ACvUQ - Recent stream. Worth the watch
 	- https://www.youtube.com/watch?v=Wy9ZoPpgtjU - To be looked into
+
+#### Differential Neural Computer
+- https://www.youtube.com/watch?v=steioHoiEms - 2016 Alex GRaves
+- Attention Mechanism
 
 - KPI - Key Performance Indicators
 	- GAP Analysis: organizational managers can use to work out the size, and sometimes the shape, of the strategic tasks to be undertaken in order to move from its current state to a desired, future state.

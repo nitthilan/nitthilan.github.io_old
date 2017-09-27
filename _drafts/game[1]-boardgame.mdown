@@ -11,3 +11,6 @@ categories: Game development, HTML5, Cordova, phaser, board game
 
 #### References
 - http://azhanahmad.com/article.php?id=1482
+
+- bridge: http://www.bicyclecards.com/how-to-play/bridge/
+- http://www.rpbridge.net/index.htm

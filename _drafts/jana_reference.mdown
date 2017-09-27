@@ -1,0 +1,10 @@
+
+
+https://research.googleblog.com/2017/09/seminal-ideas-from-2007.html
+https://www.cs.ox.ac.uk/people/nando.defreitas/publications/BayesOptLoop.pdf
+
+https://www.iro.umontreal.ca/~bengioy/cifar/NCAP2014-summerschool/slides/Ryan_adams_140814_bayesopt_ncap.pdf - good slides.
+	- Go through it to understand what can be done
+https://arxiv.org/abs/1406.7758 - Analysis of how to use bayesian optimisation
+
+http://mlg.eng.cam.ac.uk/yarin/PDFs/2015_UCL_Bayesian_Deep_Learning_talk.pdf

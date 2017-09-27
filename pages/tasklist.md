@@ -4,6 +4,10 @@ title:  "tasklist"
 permalink: /tasklist/
 ---
 
+###
+- Get transfer from Masters to Phd form filled
+- Get eecs id to access ssh1.eecs.esu.edu servers??
+- 
 
 ### 5th March 2017
 - 

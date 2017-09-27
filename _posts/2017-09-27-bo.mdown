@@ -1,0 +1,102 @@
+---
+layout: post
+title:  "Bayesian Optimisation"
+date:   2017-02-16 00:33:14 +0530
+categories: Notes, BO, Bayesian Optimisation, Gaussian Process
+---
+
+# List of Topics
+
+- What is your understanding?
+- Problem Setup
+- BO Algorithm
+- Aquisition Function
+- Gaussian Process
+
+# Problem Setup
+
+
+
+- Mutli Arm Bandit Problem:
+	- Exploration Exploitation Paradigm
+		- Regret = Player Reward - Reward of Best actions
+	- Process of evaluation of event is costly
+	- Evaluating max f(x)
+		- Black Box Evaluations
+		- Works even without gradient information. But gradient can help
+	- Using feedback (user/evaluations) to remove uncertainity and learning
+	- Finds global optimum - function need not be convex
+	- Serial process
+	- framework is very data efficient
+	- Works on Multimodal data too
+
+- Applications:
+	- Interactive User Interfaces Design - A/B Testing - 
+	- Environmental Monitoring - Oil Drilling
+	- Combinatorial Optimisation - Finding a desing maximising a objective
+	- Automatic Machine Learning - Hyperparameter learning
+	- Robotics - Policy learning/Gait learning
+
+- [Slides](file:///Users/kannappanjayakodinitthilan/Documents/myfolder/project_devan/aws_workspace/source/talks/bo/l7.pdf)
+
+# BO ALgorithm
+
+- Assumptions:
+	- Using Gaussian Process [Discuss this later]
+	- Successive points are correlated i.e. the functions are smooth
+	- Graph:
+		- Dotted Line - Actual Function
+		- Black line - Model approximation
+		- Band - Uncertainity
+		- Green - Modeling Uncertainity (Utility)
+
+
+- Basic Idea:
+	- Real world event is approximated as a equivalent model [GP used, RF also work good]
+	- Evaluating model is faster compared to actual act
+	- Exploration - Exploitation 
+		- Know points would have no uncertainity so zero std deviation
+		- Unknown points the more further away from know points the larger the std deviation
+	- Create a AF (Aquisition Function) - Utility Function which models this Exploration-Exploitation and maximise this
+	- Evaluate Objective Function
+	- Augument this to the model
+
+# Aquisition Function
+
+- Basic Function 
+	- Upper Confdence Bound: Mu(x) + K * sigma(x) 
+	- Probability of Improvement
+	- Expected Improvement
+- PI:
+	- Have a current max value (fmax) for the objective
+	- Area under the pdf
+	- All values below the fmax are ignored.
+		- This is explained later in a better slide
+	- Adding a small offset so that we do not get the same value again
+	- Assuming two values have the same mean, the one with more std deviation is considered
+- Expected Improvement
+- GP-UCB
+- Thompson Sampling:
+	- Draw a random function with the known points
+	- Then optimise the function to get the max value
+
+# Some Statements
+- Why cannot I just find the function where std is very high?
+- PI is performing bad but if you know what is the max possible value PI performs much better - Statement
+
+# Why BO works
+- For regions where the cureve is lesser than the current maximum, we need not evaluate at all and search only in the region where it matters
+
+# Random Embeddings
+- 
+
+# Reference
+- [Taking the Human Out of the Loop: A Review of Bayesian Optimization](https://www.cs.ox.ac.uk/people/nando.defreitas/publications/BayesOptLoop.pdf)
+
+- [Bayesian Optimization in a Billion Dimensions via Random Embeddings](https://jair.org/media/4806/live-4806-9131-jair.pdf)
+
+- [Nando Feritas Lectures](http://www.cs.ubc.ca/~nando/540-2013/lectures.html)
+
+- [github](https://github.com/fmfn/BayesianOptimization)
+
+- [Nando Feritas Lectures - new lectures](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/)

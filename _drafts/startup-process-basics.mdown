@@ -45,3 +45,14 @@ categories: startup, process, basics, steps
 - Each code could be made as module and you could learn or copy module from one to the other and use it in your code
 - Ideally you create one or more loop for every bot. This loop gets executed as a day to day activity. based on who or what they interact with the if else conditions get triggered and execute their own loop
 - Each bot has a high level goal which guides their life time and is described by the loop
+
+List of startup resources:
+- https://angel.co/san-francisco-bay-area
+- http://sanfrancisco.startups-list.com/
+- https://breakoutlist.com/
+- http://startupcalifornia.org/startup-bay-area/
+- https://www.bloomberg.com/graphics/2017-fifty-best-startups/
+- https://www.forbes.com/sites/karstenstrauss/2017/06/29/the-best-san-francisco-area-companies-to-work-for-in-2017/#2e9dd82b5586
+- 
+
+- https://quid.com/

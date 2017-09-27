@@ -103,6 +103,7 @@ permalink: /references/
 - [Andrej Karpathy](http://cs.stanford.edu/people/karpathy/)
 - [Andrew Trask](https://iamtrask.github.io/)
 - [](https://github.com/DanielSlater)
+- Yoshua Bengio, Yann Lecun, Geoff Hinton
 
 
 ### Deep Learning
@@ -183,6 +184,12 @@ and their Compositionality](http://papers.nips.cc/paper/5021-distributed-represe
 ### Frank Links
 - [Google Drive - Private](https://drive.google.com/drive/u/1/folders/0B-W2ezgusdcEY1dVckdNZktnbm8)
 - [RDWiki - Private](https://sites.google.com/a/deepphoton.com/rdwiki/project-definition)
+
+### Conferences
+- [ICML](https://2017.icml.cc/) - International Conference on Machine Learning
+- [AAAI](https://www.aaai.org/) - ASSOCIATION FOR THE ADVANCEMENT OF ARTIFICIAL INTELLIGENCE
+- [IJCAI](https://www.ijcai.org/) - International Joint Conference on Artificial Intelligence
+- TCAD or TODAES
 
 
 ### Stock Picking

@@ -1,8 +1,16 @@
 
-
+---
+layout: post
+title:  "Numerai Approaches"
+date:   2017-05-17 00:33:14 +0530
+categories: What, How, Why, 
+---
 
 https://medium.com/jim-fleming/notes-on-the-numerai-ml-competition-14e3d42c19f3
 https://medium.com/@Yettie/how-i-predicted-the-stock-market-at-numerai-ml-tournament-final-tutorial-1b46c459b7ba
+
+- http://blog.kaggle.com/2017/05/11/two-sigma-financial-modeling-code-competition-5th-place-winners-interview-team-best-fitting-bestfitting-zero-circlecircle/
+- Extra Trees = Extremely randomized trees
 
 - Bitcoin world:
 - Ethereum token

@@ -1,0 +1,27 @@
+
+
+
+- https://www.joshmorony.com/building-a-crud-ionic-2-application-with-firebase-angularfire/ - very good intro
+
+- typescript: https://www.joshmorony.com/intro-to-ecmascript-6-and-angular-2-for-ionic-developers/
+	- https://github.com/lukehoban/es6features
+
+- https://github.com/firebase/angularfire
+- https://www.joshmorony.com/ionic-2-first-look-series-new-angular-2-concepts-syntax/ - ionic2 in angular2
+	- http://blog.ionic.io/angular-2-series-components/
+	- 
+- https://www.joshmorony.com/a-simple-guide-to-navigation-in-ionic-2/ - nt read
+
+- https://www.joshmorony.com/building-mobile-apps-with-ionic-2/
+
+- https://firebase.google.com/docs/?nav=true - Firebase documentation
+
+- https://ionicframework.com/docs/native/firebase/
+- https://firebase.google.com/docs/database/ - important
+	- https://firebase.google.com/docs/database/admin/start
+	- 
+- https://firebase.google.com/docs/auth/ - important
+- https://firebase.google.com/docs/storage/
+- https://firebase.google.com/docs/remote-config/
+
+- Push Notification: http://tphangout.com/ionic-2-push-notifications-with-firebase/ - important

@@ -17,4 +17,9 @@ permalink:
 
 - any environments and tools used for experiments 
 
+Python doubts:
+- @attr.s - https://news.ycombinator.com/item?id=12359522
+- class x(object): and not : https://stackoverflow.com/questions/4015417/python-class-inherits-object
+- decorator: https://stackoverflow.com/questions/6392739/what-does-the-at-symbol-do-in-python
+
 

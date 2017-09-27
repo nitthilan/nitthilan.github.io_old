@@ -5,6 +5,20 @@ date:   2017-04-25 00:33:14 +0530
 categories:  
 ---
 
+#### List of Queries
+- How is graph created for a 3D world problem?
+- How are successive points choosen i.e design space decided based on the next predicted point?
+- Emperical Confidence Level?
+
+#### GP Scikit Learning
+- They lose efficiency in high dimensional spaces – namely when the number of features exceeds a few dozens.
+- The prior mean is assumed to be constant and zero (for normalize_y=False) or the training data’s mean (for normalize_y=True)
+- Kernal Object - Prior's covariance
+- Optimizer - The hyperparameters of the kernel are optimized during fitting of GaussianProcessRegressor by maximizing the log-marginal-likelihood (LML) based on the passed
+- n_restarts_optimizer - As the LML may have multiple local optima, the optimizer can be started repeatedly by specifying 
+- noise level: The noise level in the targets can be specified by passing it via the parameter alpha
+- hyperparameter optimization using gradient ascent on the log-marginal-likelihood.
+
 #### References
 - [Bayesian Optimization](https://www.cs.ox.ac.uk/people/nando.defreitas/publications/BayesOptLoop.pdf)
 - Gaussian Process
@@ -54,6 +68,7 @@ categories:
 - [Hyper Band : Embracing the Random](http://www.argmin.net/2016/06/23/hyperband/)
 - [HyperTuning : The News on Auto-tuning](http://www.argmin.net/2016/06/20/hypertuning/)
 - [Machine Learning with World Knowledge: The Position and Survey](https://arxiv.org/pdf/1705.02908.pdf)
+- [Unbounded Bayesian Optimization via Regularization](https://arxiv.org/pdf/1508.03666.pdf)
 
 #### Gaussian Process
 - [Nando Feritas Lectures](http://www.cs.ubc.ca/~nando/540-2013/lectures.html)

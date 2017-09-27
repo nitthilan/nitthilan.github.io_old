@@ -1,0 +1,88 @@
+
+
+KL Divergence:
+- http://timvieira.github.io/blog/post/2014/10/06/kl-divergence-as-an-objective-function/
+- https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence
+
+ML: Probabilistic Perspective
+- https://github.com/jonesgithub/book-1/blob/master/ML%20Machine%20Learning-A%20Probabilistic%20Perspective.pdf
+- file:///Users/kannappanjayakodinitthilan/Documents/myfolder/project_devan/aws_workspace/reference/probability/ML%20Machine%20Learning-A%20Probabilistic%20Perspective.pdf
+- http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf
+- https://www.quora.com/How-do-I-learn-statistics-and-probability-for-machine-learning-2
+
+
+
+
+Gist of the following slide: https://lh3.googleusercontent.com/-O1JAcZlheYY/WZhqDdM652I/AAAAAAAAEJU/VQyIsviBQQYguCXyByo_S_hWGQSzDuhLQCL0BGAYYCw/h1152/6773288249744719413%253Faccount_id%253D0
+
+General pattern: Solve a ML problem. Apply to EDA
+General papers:
+	- AISTATS - Nov
+	- IJCAI - Feb
+	- ICML - Feb
+	- JMLR - Mar 1
+	- DAC - Nov - Conference - https://dac.com/call-for-contributions
+	- TCAD
+	- TODAES - Journal
+
+Journal: 26-40 pages
+Conference: 5-6 pages
+
+- Blackbox/Greybox solutions
+- Multifidelity/Single fidelity
+Career Proposal:
+	- What is the triangle?
+
+
+Discussion snapshot: https://lh3.googleusercontent.com/-lBk-HYHjbVQ/WZhqEiA9IdI/AAAAAAAAEJU/mOELHg2qA2QKesAPGakvs7kdhHnyZaxFQCL0BGAYYCw/h1152/1549475575908019898%253Faccount_id%253D0
+
+Final run results to be got:
+- Find five bad design points and keep that as starting point
+- Benchmark: Only 3
+- Design Metrics [EDP] not 3
+- System size 64 cores
+
+Approach 1: RF/GP(WL) => RLS/STAGE/MCTS
+Approach 2: ?? - VAE/KL/optimisation in latent space, mapping to continous spaces
+
+
+Discussion snapshot: https://lh3.googleusercontent.com/-R7ocZuASivM/WZhqG5du-lI/AAAAAAAAEJU/zLz0EUk6awk_fZ0BDE9_u7Y_XCOQfM3fwCL0BGAYYCw/h1152/8066413271025480895%253Faccount_id%253D0
+Monte Carlo Tree Search 
+	- Read and understand
+	- Help Mohammad in implementing it
+	- Find a way to solve the TSV problem using MonteCarlo tree search (i.e. AF Optimisation)
+
+
+Rakib:
+	- Variational RNN
+	- https://arxiv.org/pdf/1506.02216.pdf
+
+- aixi
+- http://karpathy.github.io/2015/11/14/ai/
+
+Problems:
+- Core placement
+- Through Silicon Via (TSV) optimisation
+	- https://lh3.googleusercontent.com/-eWmVT7Ml_mk/WZhqFg7kzFI/AAAAAAAAEJU/jqAXRe5YCcEuZxnMHDXnBDRtDWv5kxqAwCL0BGAYYCw/h1152/2026466194747208376%253Faccount_id%253D0
+
+Complete with implementations of
+
+
+Good book for Probability based Machine Learning:
+- Murphy's Machine Learning: A Probabilistic Perspective
+- https://github.com/jonesgithub/book-1/blob/master/ML%20Machine%20Learning-A%20Probabilistic%20Perspective.pdf
+- https://www.quora.com/How-do-I-learn-statistics-and-probability-for-machine-learning-2
+- https://math.stackexchange.com/questions/2071563/machine-learning-good-book-for-learning-probability-and-statistics
+
+
+Research gate topics:
+- https://www.researchgate.net/post/deep_learning_and_transfer_learning
+- https://www.researchgate.net/post/What_are_the_input_output_dimensions_when_training_a_simple_Recurrent_or_LSTM_neural_network
+- https://www.researchgate.net/post/How_can_I_extract_the_training_validation_and_testing_data_from_my_developed_network
+
+
+
+Various approaches:
+- Single-fidelity/ Multi-fidelity: https://lh3.googleusercontent.com/-tG2W84ll0fw/WZhqCJnhwEI/AAAAAAAAEJU/kpwDxESYaTgj5rCnsC-lBuHskRksFMLqQCL0BGAYYCw/h1152/3185441546656087953%253Faccount_id%253D0
+- Greybox/Blackbox approaches
+

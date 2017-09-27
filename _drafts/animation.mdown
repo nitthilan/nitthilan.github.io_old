@@ -1,0 +1,133 @@
+
+
+- https://github.com/mistermarco/screencapture
+- https://github.com/gurgeh/selfspy
+- https://stackoverflow.com/questions/9865446/can-i-use-python-to-capture-keyboard-and-mouse-events-in-osx
+- https://stackoverflow.com/questions/43621393/capture-and-consume-input-events-from-background-python-process-without-notifyin
+
+
+- https://arxiv.org/pdf/1612.00523v1.pdf - Photorealistic Facial Texture Inference Using Deep Neural Networks
+
+
+https://www.disruptordaily.com/artificial-intelligence-art-industry/
+http://hackmind.ai/
+
+"Emergence of Locomotion Behaviours in Rich Environments" - https://arxiv.org/abs/1707.02286
+	- https://www.youtube.com/watch?v=14zkfDTN_qo locomotion
+"Flexible Muscle-Based Locomotion for Bipedal Creatures" - https://www.youtube.com/watch?v=kQ2bqz3HPJE
+	- http://www.goatstream.com/research/papers/SA2013/
+
+"Audio-Driven Facial Animation by Joint End-to-End Learning of Pose and Emotion" - http://research.nvidia.com/publication/2017-07_Audio-Driven-Facial-Animation
+
+AI Creates 3D Models From Faces: https://www.youtube.com/watch?v=u9UUWqVquXo
+	- http://www.hao-li.com/Hao_Li/Hao_Li_-_publications.html
+	- https://arxiv.org/pdf/1612.00523v1.pdf
+
+DeepMind's AI Learns Audio And Video Concepts By Itself - https://www.youtube.com/watch?v=mL3CzZcBJZU
+	- Look, Listen and Learn : https://arxiv.org/abs/1705.08168
+
+AI Creates 3D Models From Images - https://www.youtube.com/watch?v=BjwhMDhbqAs&t=2s
+	- "Hierarchical Surface Prediction for 3D Object Reconstruction" - https://arxiv.org/abs/1704.00710
+
+
+
+MAYA Tutorials:
+Youtube tutprials:
+	- https://www.youtube.com/user/misterh3d/playlists
+	- Toy Story 3D: https://www.youtube.com/user/naveenma/videos
+- How to Cheat in Maya 2014 - Roy, Kenny.pdf - Looks very good
+http://www.creativebloq.com/3d-tips/maya-tutorials-1232745
+https://medium.com/@lockpaddy/10-resources-to-learn-maya-3d-fe7fe2e68729
+
+
+- https://renderman.pixar.com/view/brief-introduction-to-renderman - a very good intro 
+
+
+List of graphics related resources to deal with:
+- SIGGRAPH - http://www.siggraph.org/
+- https://www.cse.iitb.ac.in/~sidch/
+- http://rgb.cs.cornell.edu/papers.html
+- http://web.engr.oregonstate.edu/~afern/
+- https://dritchie.github.io/
+
+- https://www.cse.iitb.ac.in/~sidch/docs/icvgip2016_tutorial.pdf
+- https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0051462
+- http://haikufactory.com/files/sca2010.pdf
+- http://koyama.xyz/project/sequential_line_search/
+
+
+AGI:
+- https://arxiv.org/abs/1701.08734
+- http://www.darpa.mil/news-events/lifelong-learning-machines-proposers-day
+- http://lifelongml.org/
+- http://lifelongml.org/reading-list/
+- https://www.cs.uic.edu/~liub/Lifelong-Machine-Learning-Tutorial-KDD-2016.pdf
+- https://www.cse.ust.hk/~qyang/Docs/2009/tkde_transfer_learning.pdf
+- https://www.cs.uic.edu/~liub/IJCAI15-tutorial.html
+- http://www.readcube.com/articles/10.1038/nature20101?shared_access_token=3UerOr1f0fy3oL_CytWdxtRgN0jAjWel9jnR3ZoTv0MggmpDmwljGswxVdeocYSujsARxGW1q2qxK0cTqi1Bup-nSH200cGUW_ET9MIG_6rvvXTcoxOnAX6B4E8dQs4FQ-yScxXe8EB0XnzqbUw3Qw%3D%3D
+
+
+SIGGRAPH:
+- http://kesen.realtimerendering.com/ - siggraph papers
+- http://www.bath.ac.uk/comp-sci/contacts/academics/peter_hall/ - machine learning in graphics
+- http://www.bath.ac.uk/comp-sci/research/visual-computing/
+- http://www.connellybarnes.com/work/class/2016/deep_learning_graphics/01_intro.pdf
+- http://www.connellybarnes.com/work/class/2016/deep_learning_graphics/ - course deep learning graphics paper
+- https://www.deepdyve.com/lp/association-for-computing-machinery/introduction-to-machine-learning-for-computer-graphics-N4M80EF0Zb
+- https://www.researchgate.net/home
+- http://s2017.siggraph.org/technical-papers-feature-computer-science-discoveries-fluid-simulation-fabrication-geometry
+
+
+- Tutorials :
+- https://github.com/bsavery/RenderManForBlender/wiki/Tutorials
+- https://renderman.pixar.com/forum/showthread.php?s=&threadid=28688
+- https://renderman.pixar.com/forum/showthread.php?s=&threadid=28917&s=f09e2655436b65a296a78cbd17bb7309
+- https://renderman.pixar.com/view/renderman4blender
+
+Scripting in Graphics:
+- http://help.autodesk.com/view/MAYAUL/2016/ENU/?guid=GUID-C0F27A50-3DD6-454C-A4D1-9E3C44B3C990
+- https://community.renderman.pixar.com/article/tutorials.html - Render man
+- https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Advanced_Tutorials/Python_Scripting/Introduction - Blender scripting
+- https://rmanwiki.pixar.com/display/REN/RenderMan+Documentation 
+- https://renderman.pixar.com/view/documentation
+
+Top Companies in Animation:
+- https://www.shiksha.com/animation/2d-3d-animation/articles/top-10-animation-companies-that-hire-freshers-blogId-11532
+- https://www.gamedesigning.org/animation-companies/
+- http://www.cs.ubc.ca/~van/research/machlearn.html
+
+
+Steps for animation:
+- http://www.zica.org/animation-film-making-diploma-course.html
+
+Hand drawing:
+- http://www.proko.com/library/
+- https://www.pencilkings.com/
+- http://www.penciljammers.com/
+- http://www.penciljammers.com/forum/topics/list-of-resources
+- http://www.penciljammers.com/profiles/blogs/art-resources-1?xg_source=activity
+- https://www.facebook.com/elakkiyasvn
+- https://www.instagram.com/elakkiyasvn/
+- https://www.facebook.com/iAnimate.net/?ref=br_rs
+- 
+
+
+- https://www.youtube.com/watch?v=Ul0Gilv5wvY
+- https://www.youtube.com/channel/UCy4DstXG8Sxx-gqVOtY_pMg
+- https://arstechnica.com/gaming/2017/05/how-neural-networks-are-making-for-more-lifelike-video-game-animation/
+- https://www.mixamo.com/
+- https://soylentnews.org/article.pl?sid=17/05/04/1522245
+- https://techcrunch.com/2017/05/01/this-neural-network-could-make-animations-in-games-a-little-less-awkward/
+
+References:
+- BLENDER ANIMATION COURSE
+- https://www.bloopanimation.com/animation-for-beginners/
+- https://www.youtube.com/watch?v=5CZdTdMmp2w - Very good intro to the steps of animation
+- https://www.bloopanimation.com/animation-for-beginners/ - Resources section has many tutorial videos 
+- https://www.bloopanimation.com/how-to-make-an-animated-movie/
+- Lynda Maya Tutorial
+- Three books: 
+	- Cartoon Animation  by Preston Blair.pdf
+	- Disney Animation-The Illusion of Life[Team Nanban][TPB].pdf
+	- How to Cheat in Maya 2014 - Roy, Kenny.pdf
+	- The Animator's Survival Kit - Richard Williams.pdf

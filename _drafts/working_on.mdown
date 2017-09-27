@@ -1,0 +1,175 @@
+
+
+Target:
+- PhD Target
+	- Research and decide on the research topic as soon as possible
+- Company Target
+	- Set up a web site which starts publicising 
+	about things that can be done with AI
+
+
+
+numerai: Learning financial models
+- /Users/kannappanjayakodinitthilan/Documents/myfolder/project_devan/aws_workspace/reference/numerai
+
+general ai challenge: did not complete
+- /Users/kannappanjayakodinitthilan/Documents/myfolder/project_devan/aws_workspace/reference/general_ai/general_ai_round1/src/docs
+
+robotics:
+
+graphics:
+
+Stanford NLP: https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6
+Stanford CNN: https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
+
+Stories
+Standup
+Music
+Drawing
+Photography
+Writing
+
+
+- contact frank
+- mail to chenni sithappa
+- buy cutter, big bucket, plug, weighing scale, water heater, 
+- phone connection and phone status
+- Try collaborating with big people
+- 
+
+
+Driving license:
+- http://www.dol.wa.gov/driverslicense/testing.html
+- http://www.dol.wa.gov/driverslicense/writtentest.html
+- http://www.dol.wa.gov/driverslicense/drivingtest.html
+- http://www.dol.wa.gov/driverslicense/getpermit.html
+- https://driving-tests.org/wp-content/uploads/2017/08/WA_driverguide-en.pdf
+- http://www.dmv.org/
+- https://www.immihelp.com/newcomer/getting-drivers-license-photo-id.html
+
+
+Immediate:
+- Take printout (get a memory card and print it out)
+- Rakibul on Monday to go to Clakston
+- Check with credit union about the debit card
+- Health insurance cover 
+
+PhD program:
+- Process the discussion
+- Run and generate results for 
+
+Get a pillow
+Table and chair
+Robotics
+photography, 
+make videos
+chenny sithappa list
+janna list
+
+
+healthcare options: https://hws.wsu.edu/2016/11/10/insurance-basics-cougs/
+
+Things to do:
+- Visit the Migration office once reaching campus
+- Visit the health and wellness services office once reaching campus (before 17th August)
+
+Things to try out:
+- https://www.pbsc.com/
+- https://urec.wsu.edu/green-bike/ - Biking
+- https://urec.wsu.edu/facilities/down-under-recreation-center/ - Fitness classes
+- https://urec.wsu.edu/facilities/indoor-facilities/ - Indoor facilities - Swimming pool, basket ball, skating,  etc
+- https://urec.wsu.edu/classes-trips?cat=0&g=0&time=0&loc=96&text=&prog=0 - Classes
+- https://urec.wsu.edu/special-events/ - upcoming events
+- https://urec.wsu.edu/imsports/
+- https://urec.wsu.edu/fitness/
+- http://urec.wsu.edu/classes-trips
+	- Modern Dance
+	- Kayaking
+	- Wall climbing
+	- backpacking
+	- swimming
+	- Kickboxing
+	- Photography
+
+- http://robosub.eecs.wsu.edu/index.php/get-involved
+- http://catalog.wsu.edu/General/Academics/Courses/MUS
+
+
+
+
+
+List of papers shared by Jana:
+- Probabilistically Safe Policy Transfer. (arXiv:1705.05394v1 [cs.RO]) http://arxiv.org/abs/1705.05394
+- Repeated Inverse Reinforcement Learning for AI Safety. (arXiv:1705.05427v1 [cs.AI]) http://arxiv.org/abs/1705.05427
+- Using Machine Learning to Explore Neural Network Architecture http://research.googleblog.com/2017/05/using-machine-learning-to-explore.html
+- Continual Learning with Deep Generative Replay. (arXiv:1705.08690v1 [cs.AI]) http://arxiv.org/abs/1705.08690
+-  On-the-fly Operation Batching in Dynamic Computation Graphs G Neubig, Y Goldberg, C Dyer - arXiv preprint arXiv:1705.07860, 2017 Abstract: Dynamic neural network toolkits such as PyTorch, DyNet, and Chainer offer more  flexibility for implementing models that cope with data of varying dimensions and structure,  relative to toolkits that operate on statically declared computations (eg, TensorFlow, CNTK, 
+
+- The Atari Grand Challenge Dataset V Kurin, S Nowozin, K Hofmann, L Beyer, B Leibe - arXiv preprint arXiv:1705.10998, 2017 Abstract: Recent progress in Reinforcement Learning (RL), fueled by its combination, with Deep Learning has enabled impressive results in learning to interact with complex virtual environments, yet real-world applications of RL are still scarce. A key limitation is data 
+
+- Stabilizing Training of Generative Adversarial Networks through Regularization K Roth, A Lucchi, S Nowozin, T Hofmann - arXiv preprint arXiv:1705.09367, 2017 Abstract: Deep generative models based on Generative Adversarial Networks (GANs) have demonstrated impressive sample quality but in order to work they require a careful choice of architecture, parameter initialization, and selection of hyper-parameters. This fragility is in 
+
+-  The Numerics of GANs L Mescheder, S Nowozin, A Geiger - arXiv preprint arXiv:1705.10461, 2017 Abstract: In this paper, we analyze the numerics of common algorithms for training Generative Adversarial Networks (GANs). Using the formalism of smooth two-player games we analyze the associated gradient vector field of GAN training objectives. Our findings 
+
+- SeaRNN (imitation learning for RNNs) https://arxiv.org/pdf/1706.04499.pdf They apply learning to search and imitation learning ideas to RNNs.I think this paper is under review at NIPS-2017.
+
+-  Ensemble Bayesian Optimization Z Wang, C Gehring, P Kohli, S Jegelka - arXiv preprint arXiv:1706.01445, 2017 Abstract: Bayesian Optimization (BO) has been shown to be a very effective paradigm for tackling hard black-box and non-convex optimization problems encountered in Machine Learning. Despite these successes, the computational complexity of the underlying function 
+
+- Energy-Based Sequence GANs for Recommendation and Their Connection to Imitation Learning. (arXiv:1706.09200v1 [cs.IR]) http://arxiv.org/abs/1706.09200
+
+- Amazon recommendations - https://www.computer.org/csdl/mags/ic/2017/03/mic2017030012.html
+
+- Human-in-the-loop RL http://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/15031/14411 - I think this is a more practical setting for RL than using simulators (e.g., video games) to create the big data setting for Deep RL.
+
+- http://proceedings.mlr.press/v70/baram17a/baram17a.pdf , https://arxiv.org/pdf/1707.02747.pdf In your free time, go through them quickly to get the high-level ideas.
+- https://deepstruct.github.io/ICML17/1stDeepStructWS_paper_5.pdf
+- Anomaly detection over graph time series https://arxiv.org/pdf/1708.02975.pdf
+
+
+
+
+http://timvieira.github.io/blog/post/2014/10/06/kl-divergence-as-an-objective-function/ 
+
+
+
+Scholar Alerts:
+- Scholar Alert - Sebastian Nowozin - new articles
+- Scholar Alert - Pushmeet Kohli - new articles
+
+Feedly alerts:
+
+Tweets:
+
+
+AAAI conference
+ICAPS conference
+
+
+deanofstudents@wsu.edu
+https://hws.wsu.edu/ - get medical insurance
+wsu app
+responsible conduct of research training - 15 min
+update mailing address in wsu website
+
+I9
+W4 - pay
+- Global Services (Bryan Hall 206)
+
+Payroll deductions - 954.74 per sem - 4th sept
+mail
+
+https://www.youtube.com/watch?v=p_mWJyBEdWc&feature=youtu.bea
+
+Posterior Regularisation:
+parametric
+regularization in a Bayesian framework, our approach incorporates data-dependent constraints that
+are easy to encode as information about model posteriors on the observed data, but may be difficult
+to encode as information about model parameters through Bayesian priors.
+
+Generative models  are usually estimated by maximizing the likelihood of the observed data
+by marginalizing over the hidden variables, typically via the Expectation Maximization (EM) algorithm
+
+
+KL divergence?
+Expectqtion
+Expectation maximization
