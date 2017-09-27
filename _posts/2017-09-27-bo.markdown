@@ -28,6 +28,9 @@ categories: Notes, BO, Bayesian Optimisation, Gaussian Process
 	- framework is very data efficient
 	- Works on Multimodal data too
 
+- Earlier Solutions: 
+	- RLS, DIRECT, STAGE, GREEDY
+
 - Applications:
 	- Interactive User Interfaces Design - A/B Testing - 
 	- Environmental Monitoring - Oil Drilling
@@ -85,8 +88,45 @@ categories: Notes, BO, Bayesian Optimisation, Gaussian Process
 # Why BO works
 - For regions where the cureve is lesser than the current maximum, we need not evaluate at all and search only in the region where it matters
 
-# Random Embeddings
-- 
+# [Show animation](https://github.com/fmfn/BayesianOptimization)
+
+
+# Gaussian Process
+- [Slides](file:///Users/kannappanjayakodinitthilan/Documents/myfolder/project_devan/aws_workspace/source/talks/bo/l6.pdf)
+
+# Random Embeddings (REM-BO)
+- [Paper Figure 2](https://jair.org/media/4806/live-4806-9131-jair.pdf)
+- Problem: Bayesian Optimisation fails when number of parameters to optimise is more than 10-20 (around 25)
+	- higher dimensions
+- Many researchers have noted that for certain classes of problems most dimensions do not change the objective function significantly
+	- “low effective dimensionality”.
+- random search can exploit low effective dimensionality without knowing which dimensions are important.
+
+- BO Setup:
+	- Prior [Surrogate model]: Gaussian process
+	- AF [Utility Function]: Expected Improvement
+
+- Random Embedding Theorem:
+	- Definition of effective dimentionality
+	- Theorem 2: Stating there exists a "y" for a random matrix Dxd mapping x to a reduced dimentionality
+- REMBO Algorithm:
+	- Algorithm 2, Figure 3
+	- Theorem 3
+
+- Effectiveness of REMBO:
+	- Theorem 3 only guarantees that Y contains the optimum with probability at least 1−; 
+- with probability δ ≤  the optimizer lies outside of Y. 
+- There are several ways to guard against this problem. One is to simply run REMBO multiple times with different independently
+drawn random embeddings. 
+- Since the probability of failure with each embedding is δ, the probability of the optimizer not being included in the considered space of k independently drawn embeddings is δ^k
+- Thus, the failure probability vanishes exponentially quickly in the number of REMBO runs, k.
+- Note also that these independent runs can be trivially parallelized to harness the power of modern multi-core machines and large compute clusters.
+
+- Applications:
+	- Synthetic function: 2 to 25,10^9
+	- Mixed Linear Programmer ??
+	- 
+
 
 # Reference
 - [Taking the Human Out of the Loop: A Review of Bayesian Optimization](https://www.cs.ox.ac.uk/people/nando.defreitas/publications/BayesOptLoop.pdf)
