@@ -31,13 +31,6 @@ categories: Notes, BO, Bayesian Optimisation, Gaussian Process
 - Earlier Solutions: 
 	- RLS, DIRECT, STAGE, GREEDY
 
-- Applications:
-	- Interactive User Interfaces Design - A/B Testing - 
-	- Environmental Monitoring - Oil Drilling
-	- Combinatorial Optimisation - Finding a desing maximising a objective
-	- Automatic Machine Learning - Hyperparameter learning
-	- Robotics - Policy learning/Gait learning
-
 - [Slides](file:///Users/kannappanjayakodinitthilan/Documents/myfolder/project_devan/aws_workspace/source/talks/bo/l7.pdf)
 
 # BO ALgorithm
@@ -94,6 +87,14 @@ categories: Notes, BO, Bayesian Optimisation, Gaussian Process
 # Gaussian Process
 - [Slides](file:///Users/kannappanjayakodinitthilan/Documents/myfolder/project_devan/aws_workspace/source/talks/bo/l6.pdf)
 
+# Applications:
+	- Interactive User Interfaces Design - A/B Testing - 
+	- Environmental Monitoring - Oil Drilling
+	- Combinatorial Optimisation - Finding a desing maximising a objective
+	- Automatic Machine Learning - Hyperparameter learning
+	- Robotics - Policy learning/Gait learning
+
+
 # Random Embeddings (REM-BO)
 - [Paper Figure 2](https://jair.org/media/4806/live-4806-9131-jair.pdf)
 - Problem: Bayesian Optimisation fails when number of parameters to optimise is more than 10-20 (around 25)
@@ -125,7 +126,7 @@ drawn random embeddings.
 - Applications:
 	- Synthetic function: 2 to 25,10^9
 	- Mixed Linear Programmer ??
-	- 
+	- Kinetic Body Part Classifier:
 
 
 # Reference
