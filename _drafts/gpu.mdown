@@ -1,0 +1,34 @@
+
+
+
+- https://developer.nvidia.com/academic_gpu_seeding
+
+
+AWS: 
+p2 - NVIDIA Tesla K80 - 2 x 2496
+G3 - NVIDIA Tesla M60 - 4096 NVIDIA CUDA® cores (2048 per GPU)
+G2 - NVIDIA GRID K520 GPUs - 3072 core
+CG1 -  NVIDIA Tesla M2050
+
+Grant Processors
+- NVIDIA Quadro M5000 - 2048
+GeForce Titan Xp, Quadro P5000, NVIDIA M5000 specification
+
+
+GTX 1080i - 3584 - 700$
+GTX 1080 - 2,560 - 500$
+GTX 1070 - 1920 - 390
+Titan X pascal - 3584
+
+Jetson: https://www.phoronix.com/scan.php?page=article&item=jetson-tegra-x2&num=1 - used 
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/accelerated-computing-instances.html
+
+
+https://www.nvidia.com/en-us/geforce/products/10series/geforce-gtx-1080-ti/
+
+https://www.phoronix.com/scan.php?page=article&item=jetson-tegra-x2&num=1
+
+- https://egpu.io/
+- https://9to5mac.com/2017/04/11/hands-on-powering-the-macbook-pro-with-an-egpu-using-nvidias-new-pascal-drivers/
+

@@ -13,3 +13,11 @@ music@wsu.edu - mail to
 
 drum pad mac using keyboard,
 using keyboard as drumpad: http://soundplant.org/about.htm
+
+Woodstock music festival: https://www.youtube.com/watch?v=Ur522xbwoFE
+
+Artificial Intelligence based music creations:
+- https://www.ampermusic.com/app#/compose-pro/126333
+- https://experiments.withgoogle.com/ai/sound-maker
+- https://magenta.tensorflow.org/
+- https://github.com/llSourcell/Music_Generation

@@ -181,6 +181,10 @@ and their Compositionality](http://papers.nips.cc/paper/5021-distributed-represe
 - <https://app.honeypot.io/profile>
 - <https://openai.com/jobs/>
 
+### Startup
+- [Guy Kawasaki Pitch Deck](https://guykawasaki.com/the-only-10-slides-you-need-in-your-pitch/)
+- [CBInsights](https://app.cbinsights.com/signup)
+
 ### Frank Links
 - [Google Drive - Private](https://drive.google.com/drive/u/1/folders/0B-W2ezgusdcEY1dVckdNZktnbm8)
 - [RDWiki - Private](https://sites.google.com/a/deepphoton.com/rdwiki/project-definition)
@@ -218,3 +222,18 @@ and their Compositionality](http://papers.nips.cc/paper/5021-distributed-represe
    - https://twitter.com/drvijaymalik
    - https://twitter.com/insharebazaar
    - https://twitter.com/Arunstockguru
+
+
+### Not Read References:
+
+- [Papers I Read](https://github.com/shagunsodhani/papers-I-read)
+- [DeepChem](https://github.com/deepchem/deepchem)
+- [Cheatsheats ai](https://github.com/kailashahirwar/cheatsheets-ai)
+- [visdom - visualisation](https://github.com/facebookresearch/visdom)
+- [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://research.fb.com/wp-content/uploads/2017/06/imagenet1kin1h5.pdf)
+- [NORMALIZATION IN DEEP LEARNING](https://calculatedcontent.com/2017/06/16/normalization-in-deep-learning/)
+- [numerai](https://numer.ai/)
+- [One Model To Learn Them All](https://arxiv.org/pdf/1706.05137.pdf)
+- [VisualBackProp: efficient visualization of CNNs](https://arxiv.org/pdf/1611.05418.pdf)
+- [DLBLR Talk - Word Representation](https://www.slideshare.net/anujgupta5095/dlblr-talk)
+- [Deep Meaning Beyond Thought Vectors](https://machinethoughts.wordpress.com/2017/09/01/deep-meaning-beyond-thought-vectors/)

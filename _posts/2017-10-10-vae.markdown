@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "Variational Auto Encoder"
+date:   2017-10-10 00:33:14 +0530
+categories: Notes, VAE, Variational Auto Encoder
+---

@@ -1,0 +1,13 @@
+Other names:
+- TipIt, Tipper, Velaikaran
+
+Peer to peer transfers:
+- https://www.nerdwallet.com/blog/banking/faq-send-money-individual/
+- https://www.theatlantic.com/business/archive/2017/07/venmo-makes-money-banks/533946/
+
+
+Online accounts:
+- https://www.zellepay.com/
+- https://www.dwolla.com/ach/ach-api/ - more popular and to be used
+
+About ACH transfers: https://www.nacha.org/ach-network

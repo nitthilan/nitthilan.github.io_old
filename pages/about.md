@@ -5,5 +5,12 @@ permalink: /about/
 ---
 
 Three major areas to work on:
-- Stock market investment
-- Machines can learn too
+- VFX Green Mat
+- Brain Project:
+	- Analog Design
+	- Blender Renderer
+	- Music Generation
+- PhD Projects
+	- Hassan's Project: 
+	- Jana's Algorithm
+- NIPS Competition: Pommerman: Multi Agent

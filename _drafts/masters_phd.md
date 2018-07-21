@@ -1,4 +1,59 @@
 
+Masters handbook: https://school.eecs.wsu.edu/wp-content/uploads/NEWhandbook1.pdf
+- Masters courses: http://schedules.wsu.edu/List/Pullman/20183/E_E
+- Parallel Computing : http://schedules.wsu.edu/List/Pullman/20183/Cpt_S/411/01
+- Python Software Construction: http://schedules.wsu.edu/List/Pullman/20183/Cpt_S/481/01
+- http://schedules.wsu.edu/List/Pullman/20183/Cpt_S
+
+
+
+- Will the RA continue for the next semester?
+- Will I be working on the research problems after summer?
+- 
+
+- Can E_E 702 Master's Special Problems, Directed Study, and/or Examination be converted to E_E 700 Master's Research, Thesis, and/or Examination?
+
+- Enroll for all the 12 credits?
+
+- EE 466 is EE 586 VLSI Design?
+
+- E_E 524 is CPT_S 561 ?
+- E_E 434
+
+- Is there anything I need to show financially?
+- Should I chose a advisor?
+- Is there a posibility of conerting to non-thesis or thesis?
+- Some set of courses do not match the numbers shown? What should be done for it?
+
+- Would I continue as a RA or 
+
+- If non thesis what is the 
+
+- https://aaai.org/Conferences/AAAI-19/aaai19call/
+
+
+
+
+-------------------------------------------
+
+Class Schedules:
+- http://schedules.wsu.edu/List/Pullman/20181
+- http://schedules.wsu.edu/List/Pullman/20181/E_E
+- http://schedules.wsu.edu/List/Pullman/20181/Cpt_S
+- https://portal.wsu.edu/psp/PWSUNP/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?FolderPath=PORTAL_ROOT_OBJECT.CO_EMPLOYEE_SELF_SERVICE.HC_SSS_STUDENT_CENTER&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder
+
+
+Workout UREC:
+https://urec.wsu.edu/item-details?itemId=10546
+https://urec.wsu.edu/item-details?itemId=10528
+
+WSU Map: https://transportation.wsu.edu/File/evening%20and_weekend_map_8-31-2017.pdf
+
+Deadline: https://gradschool.wsu.edu/deadlines/
+
+
+https://orgsync.com/38440/events/2003926/occurrences/4743581 - GPSA - Events and movies running in WSU
+
 photography, 
 make videos
 chenny sithappa list
@@ -11,8 +66,6 @@ chenny sithappa list
 
 - What is the process of getting MS on the way to PhD?
 - What are the courses you should take in the process?
-
-
 
 
 Scholarship:
@@ -117,7 +170,7 @@ We have to be cautious about picking problems when there are big groups with bri
 
 
 
-
+https://school.eecs.wsu.edu/wp-content/uploads/NEWhandbook1.pdf
 http://schedules.wsu.edu/List/Pullman/20173/Cpt_S - Class schedule
 http://schedules.wsu.edu/List/Pullman/20173/E_E
 
@@ -162,6 +215,8 @@ This will give you more time to focus on research and at the same time navigate 
 
 	
 434 ASIC and Digital Systems Design Global,Pullman,Tri-Cities
+	- http://www.eecs.wsu.edu/~ee434/
+	- http://www.eecs.wsu.edu/~ee434/Course%20Description/course_description_spring_2017.pdf
 466 VLSI Design Pullman
 (524) Advanced Computer Architecture ** effective as of 08/21/2017
 540 Artificial Intelligence Everett,Pullman,Tri-Cities
@@ -200,6 +255,11 @@ So complete EE 586, EE 524/CptS 561,y
 
 - http://www.karky.in/karefo/labs
 - ipaati madhan karky, doopaadoo
+
+Reinforcement Learning (CptS 580)
+Structured Prediction: Algorithms and Applications (CptS 580)
+Artificial Intelligence (CptS 540)
+Gerontechnology (CptS 580) ??
 
 
 

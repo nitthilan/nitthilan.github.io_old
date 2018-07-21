@@ -8,6 +8,12 @@ permalink: /misc/
 
 - https://www.facebook.com/casualjamsessions/
 
+### Other links:
+- Flights options: 
+	- https://www.flyfrontier.com/
+	- https://www.spirit.com/DPPCalendarMarket.aspx
+- 
+
 ### English
 
 March 5 2017:

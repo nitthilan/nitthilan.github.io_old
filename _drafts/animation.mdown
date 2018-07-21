@@ -1,12 +1,116 @@
 
+List of applications:
+- AI based games
+- Graphic rendering and creation of animation movies
+- Music generation using AI: music generation deep learning github
+- Video encoding based on AI
+
+To be read: 
+- http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/
+
+Very important: https://phillipi.github.io/pix2pix/ - All the GANs that work
+
+
+NN in browser:
+- https://deeplearnjs.org/
+- https://tenso.rs/
+
+Datasets:
+stereo vision datasets
+
+List of compute resources to use: 
+- http://cs231n.github.io/gce-tutorial/
+
+List of companies to follow:
+- baidu, tencent, http://www.piventures.in/
+
+Graphics basics:
+- http://web.stanford.edu/class/cs148/lectures.html
+- http://web.stanford.edu/class/cs248/lectures.html
+- http://www.connellybarnes.com/work/class/2016/deep_learning_graphics/
+- http://graphics.stanford.edu/courses/cs348b/
+
+A. Rendering CS 348B
+B. Special Topics: CS 448
+C. Cameras: CS 178, CS 478
+D. Math: CS 205A, CME 102, CME 104, CME 108, MATH 113
+E. Geometry: CS 164, CS 268, CS 348A, CS 468
+F. Computer Vision: CS 231A, CS 231B
+G. Image Processing EE 368/CS 232
+H. Robotics: CS 223A, CS 225A, CS 327A
+I. Mobile Devices: CS 193I, CS193P
+
+Automating browser actions:
+- https://splinter.readthedocs.io/en/latest/
+- http://www.techbeamers.com/selenium-webdriver-python-tutorial/
+detecting depth maps from different images deep neural networks - 
+http://cvgl.stanford.edu/papers/sun_cviu2013.pdf - Object detection, shape recovery, and 3D modelling by depth-encoded hough voting
+
+Inverse filtering:
+- Audio filtering
+- chroma keying:
+	- http://alphamatting.com/
+	- https://github.com/Joker316701882/Deep-Image-Matting
+	- Deep Image matting: https://arxiv.org/pdf/1703.03872.pdf
+
+- http://sitn.hms.harvard.edu/flash/2017/ai-video-games-toward-intelligent-game/
+- https://www.technologyreview.com/s/609482/ai-is-dreaming-up-new-kinds-of-video-games/
+
+
+Animation companies:
+- https://techcrunch.com/2017/05/01/this-neural-network-could-make-animations-in-games-a-little-less-awkward/
+- https://medium.com/@lara.petrov/towards-new-ai-based-animation-ba61cf7e89ba
+- https://nicholastsmith.wordpress.com/2017/08/25/poe-ai-part-5-real-time-obstacle-and-enemy-detection-using-cnns-in-tensorflow/
+- https://www.quora.com/Is-it-possible-to-use-deep-learning-in-3D-graphics-rendering
+- 
+
+
+3D board games:
+- overlapping games on real life areana using mobile phones
+- https://play.google.com/store/apps/details?id=com.proxy42.father.io&hl=en - Very promissing game
+- https://play.google.com/store/apps/details?id=com.nianticproject.ingress&hl=en - OK
+
+https://arxiv.org/pdf/1703.04079.pdf - surfNet - 3d model generation
+detecting depth maps from different images deep neural networks - 
+http://cvgl.stanford.edu/papers/sun_cviu2013.pdf - Object detection, shape recovery, and 3D modelling by depth-encoded hough voting
+https://arxiv.org/pdf/1704.06857.pdf - A Review on Deep Learning Techniques Applied to Semantic Segmentation
+https://arxiv.org/pdf/1603.04992.pdf - Unsupervised CNN for Single View Depth Estimation: Geometry to the Rescue
+Object Detection Using Deep CNNs Trained on Synthetic Images - https://arxiv.org/pdf/1706.06782.pdf
+
+depth map database - Database: http://mcl.usc.edu/mcl-3d-database/
+http://sun3d.cs.princeton.edu/
+
+
+
 
 - https://github.com/mistermarco/screencapture
 - https://github.com/gurgeh/selfspy
 - https://stackoverflow.com/questions/9865446/can-i-use-python-to-capture-keyboard-and-mouse-events-in-osx
 - https://stackoverflow.com/questions/43621393/capture-and-consume-input-events-from-background-python-process-without-notifyin
 
+- https://automatetheboringstuff.com/chapter18/ - accessing mouse and keyboards
+- http://www.autopy.org/
+- https://pypi.python.org/pypi/pynput
+
 
 - https://arxiv.org/pdf/1612.00523v1.pdf - Photorealistic Facial Texture Inference Using Deep Neural Networks
+
+
+Photoframing:
+	Using Vision Cloud API to:
+	- https://cloud.google.com/vision/docs/samples
+	- https://cloud.google.com/vision/
+
+	Online grading:
+	- https://www.photofeeler.com/
+
+	Famous sites:
+	- http://www.irista.com/
+	- https://en.zenfolio.com/
+	- Flickr
+	- 500px
+
+	http://storyoapp.com/
 
 
 https://www.disruptordaily.com/artificial-intelligence-art-industry/
@@ -131,3 +235,14 @@ References:
 	- Disney Animation-The Illusion of Life[Team Nanban][TPB].pdf
 	- How to Cheat in Maya 2014 - Roy, Kenny.pdf
 	- The Animator's Survival Kit - Richard Williams.pdf
+
+Game development:
+- #### Steps
+- Add cordova at the last stage
+- List of screens (1) Loading (2) Main Menu (3) Settings (??) (4) Game (5) End
+
+#### References
+- http://azhanahmad.com/article.php?id=1482
+
+- bridge: http://www.bicyclecards.com/how-to-play/bridge/
+- http://www.rpbridge.net/index.htm

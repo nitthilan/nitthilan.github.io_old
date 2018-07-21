@@ -1,10 +1,127 @@
 
 
-https://research.googleblog.com/2017/09/seminal-ideas-from-2007.html
-https://www.cs.ox.ac.uk/people/nando.defreitas/publications/BayesOptLoop.pdf
+Papers not read:
+- https://arxiv.org/pdf/1607.00653.pdf - node2vec: Scalable Feature Learning for Networks
 
-https://www.iro.umontreal.ca/~bengioy/cifar/NCAP2014-summerschool/slides/Ryan_adams_140814_bayesopt_ncap.pdf - good slides.
+- https://arxiv.org/pdf/1712.04741.pdf - Mathematics of Deep Learning
+
+- http://mlanctot.info/files/papers/aaai18-dqfd.pdf - Deep Q-learning from Demonstrations
+- https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/1z40kx414?locale=en - New learning for sequential decision making
+
+- https://arxiv.org/pdf/1711.00073.pdf - LONG-TERM FORECASTING USING TENSOR-TRAIN RNNS
+
+- https://arxiv.org/pdf/1611.01144.pdf - CATEGORICAL REPARAMETERIZATION WITH GUMBEL-SOFTMAX
+
+- https://arxiv.org/abs/1706.00764 - Hyperparameter Optimization: A Spectral Approach
+
+- https://research.googleblog.com/2017/09/seminal-ideas-from-2007.html
+- https://www.cs.ox.ac.uk/people/nando.defreitas/publications/BayesOptLoop.pdf
+
+- https://www.iro.umontreal.ca/~bengioy/cifar/NCAP2014-summerschool/slides/Ryan_adams_140814_bayesopt_ncap.pdf - good slides.
 	- Go through it to understand what can be done
 https://arxiv.org/abs/1406.7758 - Analysis of how to use bayesian optimisation
 
-http://mlg.eng.cam.ac.uk/yarin/PDFs/2015_UCL_Bayesian_Deep_Learning_talk.pdf
+- http://mlg.eng.cam.ac.uk/yarin/PDFs/2015_UCL_Bayesian_Deep_Learning_talk.pdf
+
+- https://arxiv.org/pdf/1708.06832.pdf - ANYTIME NEURAL NETWORK: A VERSATILE TRADEOFF BETWEEN COMPUTATION AND ACCURACY
+
+- https://arxiv.org/pdf/1706.01445.pdf - Ensemble Bayesian Optimization
+
+- https://arxiv.org/pdf/1701.04722.pdf - Adversarial Variational Bayes: Unifying Variational Autoencoders and Generative Adversarial Networks
+
+- http://jmlr.org/papers/volume18/15-403/15-403.pdf - Classification of Time Sequences using Graphs of Temporal Constraints
+
+- https://machinethoughts.wordpress.com/2017/10/02/vae-em/ - 
+
+- https://arxiv.org/pdf/1711.11566.pdf - Hybrid VAE: Improving Deep Generative Models using Partial Observations
+
+- https://arxiv.org/pdf/1611.00712.pdf - THE CONCRETE DISTRIBUTION: A CONTINUOUS RELAXATION OF DISCRETE RANDOM VARIABLES
+
+- https://arxiv.org/pdf/1704.08829.pdf - Deep Feature Learning for Graphs
+
+https://openreview.net/pdf?id=HymYLebCb - NETWORK SIGNATURES FROM IMAGE REPRESENTATION OF ADJACENCY MATRICES: DEEP/TRANSFER LEARNING FOR SUBGRAPH CLASSIFICATION
+
+- http://www.jmlr.org/papers/volume13/snoek12a/snoek12a.pdf - Nonparametric Guidance of Autoencoder Representations using Label Information
+
+- https://arxiv.org/pdf/1707.05005.pdf - graph2vec: Learning Distributed Representations of Graphs
+
+- http://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-1.html
+- http://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-2.html
+
+- http://www.mlsalt.eng.cam.ac.uk/foswiki/pub/Main/ClassOf2017/dcruz_thesis-poster.pdf - Tradeoffs in Neural Variational Inference
+	- Check the References
+
+ - http://bair.berkeley.edu/blog/2017/09/12/learning-to-optimize-with-rl/
+
+ - https://arxiv.org/pdf/1707.03502.pdf - Deep Learning for Sensor-based Activity Recognition: A Survey - Many dataset for activity recognition
+
+ - https://truyentran.github.io/papers/pakdd_16.pdf
+ 	- DeepCare: A Deep Dynamic Memory Model for Predictive Medicine
+ - https://arxiv.org/pdf/1707.05010.pdf
+ 	- Deep Learning to Attend to Risk in ICU
+
+ - https://arxiv.org/pdf/1702.08835.pdf
+ 	- Deep Forest: Towards an Alternative to Deep Neural Networks
+
+- https://arxiv.org/pdf/1705.10843.pdf
+	- Objective-Reinforced Generative Adversarial Networks (ORGAN) for Sequence Generation Models
+	- https://github.com/gablg1/ORGAN
+	- Reduction to continous representation
+
+
+- https://www.youtube.com/watch?v=LvmjbXZyoP0
+	- Geometric Deep Learning on Graphs and Manifolds #NIPS2017
+
+- http://www.offconvex.org/2017/12/08/generalization1/
+
+- https://bayesopt.github.io/slides/2017/bayesopt_2017_jegelka.pdf
+- https://bayesopt.github.io/slides/2017/Lorenz_NIPS_Workshop_2017.pdf
+- https://bayesopt.github.io/slides/2017/NIPS_BOws_Ginsbourger_09_12_2017.pdf
+- Here are accepted papers: https://bayesopt.github.io/accepted.html
+
+- https://www.youtube.com/watch?v=LvmjbXZyoP0 - Geometric Deep Learning on Graphs and Manifolds - #NIPS2017
+
+- https://www.youtube.com/watch?v=9saauSBgmcQ - Yee Whye Teh: On Bayesian Deep Learning and Deep Bayesian Learning (NIPS 2017 Keynote)
+
+- https://www.youtube.com/watch?v=hYip_Vuv8J0 - Blockchain
+
+ - Weisfeiler-Lehman Neural Machine for Link Prediction - http://www.cse.wustl.edu/~muhan/papers/KDD_2017.pdf
+
+ - http://bair.berkeley.edu/blog/2017/09/12/learning-to-optimize-with-rl/ 
+
+ - http://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-1.html
+
+
+- Time management: https://www.youtube.com/watch?v=oTugjssqOT0&t=1213s
+
+https://arxiv.org/pdf/1712.02734.pdf - ChemNet: A Transferable and Generalizable Deep Neural Network for Small-Molecule Property Prediction
+
+- Mixed Sum-Product Networks: A Deep Architecture for Hybrid Domains
+
+- https://arxiv.org/pdf/1708.08227.pdf - ChemGAN challenge for drug discovery: can AI reproduce natural chemical diversity?
+
+- http://videolectures.net/deeplearning2017_montreal/ - Very interesting topics by top people
+List of conferences:
+- AAAI - https://aaai.org/Conferences/AAAI-18/aaai18call/ - September 11, 2017
+- http://www.yisongyue.com/publications/aaai2018_safe_mdp.pdf - Safe Exploration and Optimization of Constrained MDPs using Gaussian Processes
+- http://www.yisongyue.com/publications/ijcai2017_corr_dueling.pdf - Correlational Dueling Bandits with Application to Clinical Treatment in Large Decision Spaces
+- https://arxiv.org/pdf/1711.11157.pdf - A SEMANTIC LOSS FUNCTION FOR DEEP LEARNING WITH SYMBOLIC KNOWLEDGE
+
+Papers To be Read:
+- http://www.cccblog.org/2017/12/04/nsf-lecture-soft-materials-research-in-the-era-of-machine-learning/ - explore this guy???
+
+Reviewed once:
+- http://i.stanford.edu/~jure/pub/talks2/graphsage-ieee_bigdata-dec17a.pdf
+	- Graph Representation Learning
+	- GraphSage and node2vec
+	- https://arxiv.org/pdf/1607.00653.pdf - node2vec
+- https://openreview.net/pdf?id=BJcAWaeCW - GRAPH TOPOLOGICAL FEATURES VIA GAN
+	- https://arxiv.org/pdf/0803.0476.pdf - Fast unfolding of communities in large networks
+	- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.115.3303&rep=rep1&type=pdf - Analysis of Multilevel Graph Partitioning ∗
+- https://openreview.net/pdf?id=H15RufWAW - GRAPHGAN: GENERATING GRAPHS VIA RANDOM WALKS
+- https://arxiv.org/pdf/1711.08267.pdf - GraphGAN: Graph Representation Learning with Generative Adversarial Nets
+	- http://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf - Structural Deep Network Embedding
+- https://arxiv.org/pdf/1603.07063.pdf - Semantic Object Parsing with Graph LSTM
+- https://openreview.net/pdf?id=H15RufWAW - GRAPHGAN: GENERATING GRAPHS VIA RANDOM WALKS
+Papers Read:
+
