@@ -1,4 +1,36 @@
 
+
+
+http://schedules.wsu.edu/List/Pullman/20191/Entrp
+http://schedules.wsu.edu/List/Pullman/20191/F_A
+http://schedules.wsu.edu/List/Pullman/20191/Math
+
+
+Numerical Analysis : looks simple
+- http://math.wsu.edu/faculty/dillon/math448.html
+- http://www.math.wsu.edu/courseinfo/syllabi/2017fall/m448-01-2173.pdf
+- Just assignments and exams
+- http://www.math.wsu.edu/faculty/genz/na.html
+
+CPT_S 548 Advanced Computer Graphics - looks interesting - TU,TH10.35-11.50
+530 Numerical analysis-	TU,TH13.25-14.40
+Introduction to Machine Learning : https://eecs.wsu.edu/~cook/ml/syllabus.pdf TU,TH10.35-11.50
+
+CPT_S 571 Computational Genomics : https://www.eecs.wsu.edu/~ananth/CptS571/Lectures/CourseDetails.pdf - Not good. Do not take. Too many things to do
+
+http://schedules.wsu.edu/List/Pullman/20191/Cpt_S/489/01 - not good but ok
+
+software testing : https://apps.aoi.wsu.edu/coursemoreinfo/course_more_info.aspx?uid=2193-11364
+	- https://apps.aoi.wsu.edu/coursemoreinfo/syllabus.aspx?courseid=2019-spri-ONLIN-CPT_S-582-12484-LEC - Too many things to do. Do not tke
+
+Advanced Database: Cpt S 580 (Spring 2019) : https://apps.aoi.wsu.edu/coursemoreinfo/syllabus.aspx?courseid=2019-spri-ONLIN-CPT_S-580-10156-LEC - Advanced Database - Looks too much to write do not take
+
+http://schedules.wsu.edu/List/Pullman/20191/Cpt_S/564/01
+
+Software Architecture - Not great
+
+
+
 Masters handbook: https://school.eecs.wsu.edu/wp-content/uploads/NEWhandbook1.pdf
 - Masters courses: http://schedules.wsu.edu/List/Pullman/20183/E_E
 - Parallel Computing : http://schedules.wsu.edu/List/Pullman/20183/Cpt_S/411/01
@@ -74,6 +106,8 @@ Scholarship:
 - Monthly cost: 500$
 - external (Google, Microsoft, IBM etc.) fwllowships -- 20K$ per year
 - In 2014, I had an offer from Google Research for $160K per year
+
+Suksdorf Fellowship
 
 Health insurance:
 - https://hws.wsu.edu/studentinsurance/graduate-students/

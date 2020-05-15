@@ -25,8 +25,8 @@ categories: Docker, images
 	        - remove all the running docker images
 	- docker port [container] - List of ports exposed by the container
 	- Run variations
-	    - docker run -p 8888:80 prakhar1989/static-site
-	        - mapping container port to external port
+		- docker run -p 8888:80 prakhar1989/static-site
+		- mapping container port to external port
 - Image related commands:
 	- docker images - list of all docker images
 	- docker rmi Image Image - removing images

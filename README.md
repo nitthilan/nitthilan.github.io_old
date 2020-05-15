@@ -18,7 +18,14 @@ Commands used:
 - bundle exec jekyll serve --watch --port 8000 --detach
 - bundle exec jekyll serve --watch --port 8000 --detach
 - pkill -f jekyll
+- bundle exec jekyll build --watch => Autogeneration
 - bundle exec jekyll build
 - bundle exec jekyll build --drafts => to build drafts folder
-- git add . 
-- git push -u origin master
+git add . 
+git push -u origin master
+
+
+
+alias run_rsync='rsync -azP --progress --stats --exclude ".*/" --exclude ".*" --exclude "tmp/" //Users/kannappanjayakodinitthilan/Documents/myfolder/project_devan/aws_workspace/source/website/nitthilan.github.io njayakodi_dg@134.121.66.109:/local/data/nitthilan/source_code/website/'
+
+run_rsync; fswatch -o Users/kannappanjayakodinitthilan/Documents/myfolder/project_devan/aws_workspace/source/website/nitthilan.github.io | while read f; do run_rsync; done

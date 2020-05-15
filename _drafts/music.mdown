@@ -1,4 +1,22 @@
 
+
+headphones:
+- headphones wireless
+- Cowin Active Noise Cancelling Headphones
+- https://drop.com/all-communities/drops
+- https://www.nuraphone.com/pages/how-it-works
+- https://www.cnet.com/reviews/sony-wf-1000xm3-review/
+- refurbished headphones wireless
+	- https://www.consumerreports.org/headphones/great-refurbished-headphones/
+	- https://www.newegg.com/p/pl?d=refurbished+headphones
+
+
+- autotune: https://www.youtube.com/watch?v=ZQmveSrJOEM
+	- 
+
+
+
+
 - https://music.wsu.edu/
 - https://music.wsu.edu/faculty-artist-series/ - Free entires for people on Sept 5th @ 8pm
 - Bryan Hall
@@ -21,3 +39,13 @@ Artificial Intelligence based music creations:
 - https://experiments.withgoogle.com/ai/sound-maker
 - https://magenta.tensorflow.org/
 - https://github.com/llSourcell/Music_Generation
+
+- https://en.wikipedia.org/wiki/Music_and_artificial_intelligence
+- https://www.nanalyze.com/2018/05/11-startups-ai-compose-music/
+- https://www.aiva.ai/engine
+
+- https://github.com/ederwander/PyAutoTune
+
+programming music with python
+- https://jythonmusic.me/download/
+- https://sonic-pi.net/

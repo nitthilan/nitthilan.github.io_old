@@ -9,3 +9,8 @@ permalink: /interesting/
 -  
 
 ####
+
+
+- http://course.fast.ai/, https://github.com/fastai
+- https://github.com/fastai/fastai
+- Datasheets for Datasets : https://arxiv.org/abs/1803.09010

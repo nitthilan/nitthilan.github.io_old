@@ -1,4 +1,10 @@
 
+Deeplearning:
+- http://en.diveintodeeplearning.org/
+- NLP: https://github.com/dmlc/gluon-nlp/releases/tag/v0.5.0
+- MXNet : https://gluon-cv.mxnet.io/model_zoo/classification.html - Imagenet perfrmance across different networks
+- Graph Neural Networks: https://github.com/jermainewang/dgl
+- Rigorous agent RL : https://arxiv.org/pdf/1812.01647.pdf
 
 Papers not read:
 - https://arxiv.org/pdf/1607.00653.pdf - node2vec: Scalable Feature Learning for Networks

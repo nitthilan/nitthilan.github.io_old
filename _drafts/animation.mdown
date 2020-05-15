@@ -1,4 +1,8 @@
 
+- file:///Users/kannappanjayakodinitthilan/Documents/myfolder/entertainment/Animation%20from%20Pencils%20to%20Pixels%20-%20Classical%20Techniques%20for%20the%20Digital%20Animator/Animation%20from%20Pencils%20to%20Pixels.pdf
+- file:///Volumes/series/books/Essential%20Skills%20for%203D%20Modeling,%20Rendering,%20and%20Animation%20-%20Nicholas%20Bernhardt%20Zeman/Essential%20Skills%20for%203D%20Modeling,%20Rendering,%20and%20Animation%20-%20Nicholas%20Bernhardt%20Zeman.pdf
+- 
+
 List of applications:
 - AI based games
 - Graphic rendering and creation of animation movies

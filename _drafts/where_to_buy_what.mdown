@@ -1,3 +1,8 @@
+
+glasses:
+- https://www.glassesusa.com/eyeglasses-collection?dir=asc&order=price&p=1&frame_type=97
+- https://designeroptics.com/collections/eyeglasses
+
 Cars:
 - https://pullman.craigslist.org/cto/d/2010-toyota-corolla-low/6561849318.html
 - https://pullman.craigslist.org/cto/d/ford-taurus-se-2002/6553754159.html
@@ -8,6 +13,13 @@ https://pullman.craigslist.org/cto/d/2010-vw-jetta/6541322252.html
 
 - https://pullman.craigslist.org/cto/d/2013-chevy-malibu-2lt/6550034598.html
 
+
+- https://pullman.craigslist.org/cto/d/want-car-that-rides-smooth/6650473380.html
+- https://pullman.craigslist.org/cto/d/4wd-nissan-murano-sl-awd-2007/6620581502.html
+- https://pullman.craigslist.org/cto/d/2004-bmw-525i-for-sale/6645721508.html
+- https://pullman.craigslist.org/cto/d/2008-nissan-altima-25s/6651279933.html
+- https://pullman.craigslist.org/cto/d/2009-kia-spectra/6651422130.html
+- https://pullman.craigslist.org/cto/d/hyundai-accent-2011-with-low/6652099083.html
 
 Pull overs:
 
@@ -36,3 +48,11 @@ Mobile plans:
 
 - snow boots, winter shoes
 - http://www.payless.com/search/?q=snow%20boots
+
+
+headphones:
+- long battery life fast charging wireless noise canceling headphone
+- https://www.androidcentral.com/best-true-wireless-headphones
+- wireless headphones bluetooth noise cancelling
+- https://www.amazon.com/Cancelling-Headphones-Bluetooth-Microphone-Cellphone/dp/B077YG22Y9/ref=dp_ob_title_ce
+- programmable noise cancelling headphones
