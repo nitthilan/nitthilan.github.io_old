@@ -21,7 +21,9 @@ Commands used:
 - bundle exec jekyll build --watch => Autogeneration
 - bundle exec jekyll build
 - bundle exec jekyll build --drafts => to build drafts folder
+bundle exec jekyll build
 git add . 
+git commit -m "New posts added"
 git push -u origin master
 
 
