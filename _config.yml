@@ -28,6 +28,10 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+
+plugins_dir:
+  - jekyll-archives
+
 exclude:
   - Gemfile
   - Gemfile.lock
